@@ -26,6 +26,16 @@ public class PlayerController : MonoBehaviour
     public Vector3 targetCameraPosition;
     public Vector3 targetCameraScale;
 
+    // Dash variables
+    public float dashSpeed = 25f;
+    public float dashDuration = 0.2f;
+    public float dashCooldown = 1f;
+
+    private bool isDashing = false;
+    private float dashTime = 0f;
+    private float lastDashTime = -Mathf.Infinity;
+    private Vector2 dashDirection;
+
     // List of Colliders currently inside player
     public List<string> TriggerList;
 
@@ -48,6 +58,10 @@ public class PlayerController : MonoBehaviour
         move.Enable();
         move.performed += i => direc = move.ReadValue<Vector2>();
         move.canceled += i => direc = Vector2.zero;
+
+        // DASH INPUT SETUP
+        actions.Player.Dash.Enable();
+        actions.Player.Dash.performed += ctx => TryDash();
     }
 
     private void OnDisable()
@@ -61,11 +75,23 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+
+        if (isDashing)
+        {
+            dashTime += Time.deltaTime;
+            if (dashTime >= dashDuration)
+            {
+                EndDash();
+            }
+        }
     }
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = direc * speed;
+        if (!isDashing)
+        {
+            rb.linearVelocity = direc * speed;
+        }
 
         Vector3 mousePosition = m_MainCamera.ScreenToWorldPoint(Input.mousePosition);
         Vector3 direction = mousePosition - rb.transform.position;
@@ -95,4 +121,36 @@ public class PlayerController : MonoBehaviour
     {
         TriggerList.Remove(collision.tag);
     }
+
+    private void TryDash()
+    {
+        if (Time.time >= lastDashTime + dashCooldown && !isDashing && direc != Vector2.zero)
+        {
+            StartDash();
+        }
+    }
+
+    private void StartDash()
+    {
+        isDashing = true;
+        dashTime = 0f;
+        lastDashTime = Time.time;
+
+        dashDirection = direc.normalized;
+        rb.linearVelocity = dashDirection * dashSpeed;
+
+        // Make player invulnerable or disable collisions
+        GetComponent<Collider2D>().enabled = false;
+    }
+
+    private void EndDash()
+    {
+        isDashing = false;
+        rb.linearVelocity = Vector2.zero;
+
+        // Re-enable collider
+        GetComponent<Collider2D>().enabled = true;
+    }
+
+
 }
