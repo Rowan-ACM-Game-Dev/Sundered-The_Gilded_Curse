@@ -23,17 +23,17 @@ public class PlayerController : MonoBehaviour
     public Camera m_MainCamera;
     public float smoothTime = 0.3F;
     public Vector3 velocity = Vector3.zero;
-    public Vector3 targetCameraPosition;
-    public Vector3 targetCameraScale;
 
     // List of Colliders currently inside player
     public List<string> TriggerList;
+    
+    public List<Transform> ViewpointList;
 
     private void Start()
     {
         m_MainCamera = Camera.main;
-        targetCameraPosition = m_MainCamera.transform.position;
         TriggerList = new List<string>();
+        ViewpointList = new List<Transform>();
     }
 
     private void Awake()
@@ -77,7 +77,8 @@ public class PlayerController : MonoBehaviour
     }
 
     private void LateUpdate()
-    {
+    {   
+        Vector3 targetCameraPosition = new Vector3(ViewpointList[0].position.x, ViewpointList[0].position.y, m_MainCamera.transform.position.z);
         m_MainCamera.transform.position = Vector3.SmoothDamp(m_MainCamera.transform.position, targetCameraPosition, ref velocity, smoothTime);
     }
 
@@ -87,12 +88,17 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("MainCamera"))
         {
-            targetCameraPosition = new Vector3(collision.transform.position.x, collision.transform.position.y, m_MainCamera.transform.position.z); //collision.transform.position
+            ViewpointList.Add(collision.transform);
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         TriggerList.Remove(collision.tag);
+
+        if (collision.gameObject.CompareTag("MainCamera"))
+        {
+            ViewpointList.Remove(collision.transform);
+        }
     }
 }
