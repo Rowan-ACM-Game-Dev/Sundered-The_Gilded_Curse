@@ -1121,7 +1121,7 @@ Transform:
   m_GameObject: {fileID: 592660943}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.05, y: -0.51, z: -1}
+  m_LocalPosition: {x: 2.34, y: -0.42, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2840,7 +2840,6 @@ GameObject:
   - component: {fileID: 972441839}
   - component: {fileID: 972441838}
   - component: {fileID: 972441841}
-  - component: {fileID: 972441842}
   m_Layer: 0
   m_Name: Room4Lever
   m_TagString: Untagged
@@ -2979,19 +2978,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &972441842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972441837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0d51bb2fa26fb843b86b3392ce48776, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  door: {fileID: 511895405}
 --- !u!1 &1027920263
 GameObject:
   m_ObjectHideFlags: 0
