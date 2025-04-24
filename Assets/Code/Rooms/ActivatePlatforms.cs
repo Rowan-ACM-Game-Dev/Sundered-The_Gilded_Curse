@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ActivatePlatforms : MonoBehaviour
 {
-    public bool Activated;
+    public bool Activated = false;
     public Transform Platform1;
     public Transform Platform2;
     public Transform Platform3;
@@ -15,7 +15,7 @@ public class ActivatePlatforms : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Activated = false;
+        
     }
 
     // Update is called once per frame
