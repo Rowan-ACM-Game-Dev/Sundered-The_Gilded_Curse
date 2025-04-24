@@ -55,6 +55,14 @@ ExportedObj/
 # Unity3D generated file on crash reports
 sysinfo.txt
 
+# Temporary data from sprite creation (Unity 2D specific)
+[Aa]ssets/[Aa]rt/Sprites/*.meta
+[Aa]ssets/[Aa]rt/Sprites/*/
+
+# Ignore automatically generated Prefabs for 2D objects
+/[Aa]ssets/[Pp]refabs/*.meta
+/[Aa]ssets/[Pp]refabs/*/
+
 # Builds
 *.apk
 *.aab
