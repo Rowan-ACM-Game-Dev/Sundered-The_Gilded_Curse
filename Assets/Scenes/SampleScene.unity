@@ -808,7 +808,6 @@ MonoBehaviour:
   player: {fileID: 592660947}
   panSpeed: 2
   paddingThreshold: {x: 0, y: 0}
-  gridOrigin: {x: 5, y: 5}
 --- !u!1 &556927324
 GameObject:
   m_ObjectHideFlags: 0
