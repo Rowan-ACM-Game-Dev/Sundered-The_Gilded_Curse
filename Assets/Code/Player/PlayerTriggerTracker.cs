@@ -10,15 +10,6 @@ public class PlayerTriggerTracker : MonoBehaviour
         if (!CurrentTriggers.Contains(collision.tag))
         {
             CurrentTriggers.Add(collision.tag);
-
-            if (collision.CompareTag("MainCamera"))
-            {
-                var cameraFollow = GetComponent<PlayerCameraFollow>();
-                if (cameraFollow != null)
-                {
-                    cameraFollow.SetCameraTarget(collision.transform.position);
-                }
-            }
         }
     }
 
