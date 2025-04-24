@@ -435,7 +435,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -496,7 +496,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4056604, g: 0.29222342, b: 0.18178178, a: 1}
+  m_Color: {r: 0.72327036, g: 0.56797034, b: 0.40712383, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -820,14 +820,13 @@ GameObject:
   - component: {fileID: 556927325}
   - component: {fileID: 556927328}
   - component: {fileID: 556927327}
-  - component: {fileID: 556927329}
   m_Layer: 0
   m_Name: PlatformLever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &556927325
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -960,22 +959,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &556927329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 556927324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 236f9b3f0356cc34a9b584158a90c8cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Activated: 0
-  Platform1: {fileID: 0}
-  Platform2: {fileID: 0}
-  Platform3: {fileID: 0}
 --- !u!1 &592660943
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,7 +974,6 @@ GameObject:
   - component: {fileID: 592660948}
   - component: {fileID: 592660956}
   - component: {fileID: 592660955}
-  - component: {fileID: 592660954}
   - component: {fileID: 592660953}
   - component: {fileID: 592660952}
   - component: {fileID: 592660951}
@@ -1196,18 +1178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a774a6ccbb90b74f887ce2371d6d0b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &592660954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 592660943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 220163b70a1a05b47972516e79179c54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &592660955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1232,7 +1202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b436d1172a25e4fbc90314a568da3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashSpeed: 25
+  dashSpeed: 30
   dashDuration: 0.2
   dashCooldown: 0.5
 --- !u!1 &597219338
@@ -2743,7 +2713,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &972441838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2882,11 +2852,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 972441837}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08e14f990b4285489ed70305807aa54, type: 3}
+  m_Script: {fileID: 11500000, guid: a0d51bb2fa26fb843b86b3392ce48776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOpen: 0
-  toOpen: {fileID: 0}
+  door: {fileID: 511895405}
 --- !u!1 &1027920263
 GameObject:
   m_ObjectHideFlags: 0
@@ -3348,7 +3317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1164426302
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4076,7 +4045,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1489093912
 Transform:
   m_ObjectHideFlags: 0
@@ -5674,7 +5643,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.86415094, g: 0.6891092, b: 0.2592452, a: 1}
+  m_Color: {r: 0.86274517, g: 0.6901961, b: 0.25490198, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

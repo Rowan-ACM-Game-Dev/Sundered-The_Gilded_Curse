@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Room4TimedButton : MonoBehaviour
 {
-    public GameObject door;
+    //public GameObject door;
+
+    [SerializeField]
+    private GameObject door;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

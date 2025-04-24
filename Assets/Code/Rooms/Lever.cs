@@ -12,7 +12,7 @@ public class Lever : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Key"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             isOpen = !isOpen;
         }        
