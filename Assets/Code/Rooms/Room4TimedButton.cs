@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Room4TimedButton : MonoBehaviour
 {
+    [SerializeField]
     public Boolean activated = false;
+    [SerializeField]
     public Transform upperDoor;
+    [SerializeField]
     public Transform lowerDoor;
 
     private void OnTriggerEnter2D(Collider2D collision)
