@@ -910,9 +910,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Activated: 0
-  Platform1: {fileID: 1998843930}
-  Platform2: {fileID: 1879605734}
-  Platform3: {fileID: 887493507}
+  platforms:
+  - platform: {fileID: 1998843930}
+    onY: 0
+    offY: 2.5
+    onPos: {x: 0, y: 0, z: 0}
+    offPos: {x: 0, y: 0, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+  - platform: {fileID: 1879605734}
+    onY: 0
+    offY: -2.5
+    onPos: {x: 0, y: 0, z: 0}
+    offPos: {x: 0, y: 0, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+  - platform: {fileID: 887493507}
+    onY: 0
+    offY: 2.5
+    onPos: {x: 0, y: 0, z: 0}
+    offPos: {x: 0, y: 0, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
 --- !u!61 &556927328
 BoxCollider2D:
   m_ObjectHideFlags: 0
