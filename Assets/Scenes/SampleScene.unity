@@ -820,8 +820,9 @@ GameObject:
   - component: {fileID: 556927325}
   - component: {fileID: 556927328}
   - component: {fileID: 556927327}
+  - component: {fileID: 556927329}
   m_Layer: 0
-  m_Name: PlatformLever
+  m_Name: PressurePlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -975,6 +976,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &556927329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556927324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89adb436def2ad647817e8c0a4d416bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &592660943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,6 +2600,7 @@ GameObject:
   - component: {fileID: 887493507}
   - component: {fileID: 887493506}
   - component: {fileID: 887493505}
+  - component: {fileID: 887493508}
   m_Layer: 0
   m_Name: Platform3
   m_TagString: Platform
@@ -2710,6 +2724,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1101102531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &887493508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887493504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89adb436def2ad647817e8c0a4d416bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &918805214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3435,6 +3461,7 @@ Transform:
   - {fileID: 887493507}
   - {fileID: 1275287698}
   - {fileID: 795624391}
+  - {fileID: 1758328797}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1164426301
@@ -3772,6 +3799,7 @@ GameObject:
   - component: {fileID: 1275287698}
   - component: {fileID: 1275287697}
   - component: {fileID: 1275287696}
+  - component: {fileID: 1275287699}
   m_Layer: 0
   m_Name: Pits
   m_TagString: Pits
@@ -3895,6 +3923,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1101102531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1275287699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275287695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266f3c6e7e35dca4a9ec99b3062e520e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 1758328798}
 --- !u!1 &1282775431
 GameObject:
   m_ObjectHideFlags: 0
@@ -5315,6 +5356,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1250172135}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 41.45}
+--- !u!1 &1758328796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758328797}
+  - component: {fileID: 1758328798}
+  m_Layer: 0
+  m_Name: PuzzleController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1758328797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758328796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1101102531}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1758328798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758328796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288bb8a20f5503c47a9b68403230242a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleElements:
+  - {fileID: 1998843931}
+  - {fileID: 1879605735}
+  - {fileID: 887493508}
 --- !u!1 &1788589037
 GameObject:
   m_ObjectHideFlags: 0
@@ -5684,6 +5773,7 @@ GameObject:
   - component: {fileID: 1879605734}
   - component: {fileID: 1879605733}
   - component: {fileID: 1879605732}
+  - component: {fileID: 1879605735}
   m_Layer: 0
   m_Name: Platform2
   m_TagString: Platform
@@ -5807,6 +5897,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1101102531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1879605735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879605731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89adb436def2ad647817e8c0a4d416bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1998843927
 GameObject:
   m_ObjectHideFlags: 0
@@ -5818,6 +5920,7 @@ GameObject:
   - component: {fileID: 1998843930}
   - component: {fileID: 1998843929}
   - component: {fileID: 1998843928}
+  - component: {fileID: 1998843931}
   m_Layer: 0
   m_Name: Platform1
   m_TagString: Platform
@@ -5941,6 +6044,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1101102531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1998843931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998843927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89adb436def2ad647817e8c0a4d416bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2014278598
 GameObject:
   m_ObjectHideFlags: 0

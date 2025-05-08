@@ -10,9 +10,25 @@ public class PlayerInputHandler : MonoBehaviour
         actions = new InputSystem_Actions();
         movement = GetComponent<PlayerController>();
         dash = GetComponent<PlayerDash>();
+
+        if (movement == null)
+        {
+            Debug.LogError("PlayerController is not attached to this GameObject.");
+        }
+
+        if (dash == null)
+        {
+            Debug.LogError("PlayerDash is not attached to this GameObject.");
+        }
     }
+
     private void OnEnable()
     {
+        if (actions == null)
+        {
+            actions = new InputSystem_Actions();
+        }
+
         actions.Player.Move.Enable();
         actions.Player.Move.performed += ctx => movement.SetDirection(ctx.ReadValue<Vector2>());
         actions.Player.Move.canceled += _ => movement.SetDirection(Vector2.zero);
@@ -22,7 +38,10 @@ public class PlayerInputHandler : MonoBehaviour
     }
     private void OnDisable()
     {
-        actions.Player.Move.Disable();
-        actions.Player.Dash.Disable();
+        if (actions != null)
+        {
+            actions.Player.Move.Disable();
+            actions.Player.Dash.Disable();
+        }
     }
 }
