@@ -12,10 +12,15 @@ public class PlayerInputHandler : MonoBehaviour
         movement = GetComponent<PlayerController>();
         dash = GetComponent<PlayerDash>();
         drag = GetComponent<PlayerDrag>();
-
     }
+
     private void OnEnable()
     {
+        if (actions == null)
+        {
+            actions = new InputSystem_Actions();
+        }
+
         actions.Player.Move.Enable();
         actions.Player.Move.performed += ctx => movement.SetDirection(ctx.ReadValue<Vector2>());
         actions.Player.Move.canceled += _ => movement.SetDirection(Vector2.zero);
@@ -32,6 +37,5 @@ public class PlayerInputHandler : MonoBehaviour
         actions.Player.Move.Disable();
         actions.Player.Dash.Disable();
         actions.Player.Drag.Disable();
-
     }
 }
