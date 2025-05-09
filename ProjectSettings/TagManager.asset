@@ -44,5 +44,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 411428949
+    locked: 0
+  - name: Pits
+    uniqueID: 2979278419
+    locked: 0
+  - name: Interact
+    uniqueID: 1237288929
+    locked: 0
+  - name: Wall
+    uniqueID: 3364215561
+    locked: 0
   m_RenderingLayers:
   - Default
