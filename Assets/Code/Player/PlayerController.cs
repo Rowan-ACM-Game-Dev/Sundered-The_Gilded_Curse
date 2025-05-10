@@ -36,23 +36,23 @@ public class PlayerController : MonoBehaviour
     {
         if (direction.x > 0)
         {
-            spriteRenderer.flipX = false; // Facing right
-            Debug.Log("Player is facing Right");
+            spriteRenderer.flipX = false; 
+            //Debug.Log("Player is facing Right");
         }
         else if (direction.x < 0)
         {
-            spriteRenderer.flipX = true; // Facing left
-            Debug.Log("Player is facing Left");
+            spriteRenderer.flipX = true;
+            //Debug.Log("Player is facing Left");
         }
         else if (direction.y > 0)
         {
-            spriteRenderer.flipX = false; // Facing up (no flip needed for up/down)
-            Debug.Log("Player is facing Up");
+            spriteRenderer.flipX = false; 
+            //Debug.Log("Player is facing Up");
         }
         else if (direction.y < 0)
         {
-            spriteRenderer.flipX = false; // Facing down (no flip needed for up/down)
-            Debug.Log("Player is facing Down");
+            spriteRenderer.flipX = false; 
+            //Debug.Log("Player is facing Down");
         }
     }
 }
