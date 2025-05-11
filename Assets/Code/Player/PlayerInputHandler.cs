@@ -1,18 +1,22 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 public class PlayerInputHandler : MonoBehaviour
 {
     private InputSystem_Actions actions;
     private PlayerController movement;
     private PlayerDash dash;
     private PlayerDrag drag;
+    private JinnAbilityController jinnAbilityController;
+    public InputSystem_Actions Actions => actions; // Public property to access actions
+
     private void Awake()
     {
         actions = new InputSystem_Actions();
         movement = GetComponent<PlayerController>();
         dash = GetComponent<PlayerDash>();
         drag = GetComponent<PlayerDrag>();
-
+        jinnAbilityController = GetComponent<JinnAbilityController>();
     }
     private void OnEnable()
     {
@@ -26,12 +30,19 @@ public class PlayerInputHandler : MonoBehaviour
         actions.Player.Drag.Enable();
         actions.Player.Drag.performed += _ => drag.Drag();
         actions.Player.Drag.canceled += _ => drag.StopDrag();
+
+        actions.Player.UseAbility.Enable();
+        actions.Player.UseAbility.performed += ctx => {
+            Debug.Log("Z key pressed - UseAbility triggered!");
+            jinnAbilityController?.UseJinnAbility();
+        };
+
     }
     private void OnDisable()
     {
         actions.Player.Move.Disable();
         actions.Player.Dash.Disable();
         actions.Player.Drag.Disable();
-
+        actions.Player.UseAbility.Disable();
     }
 }

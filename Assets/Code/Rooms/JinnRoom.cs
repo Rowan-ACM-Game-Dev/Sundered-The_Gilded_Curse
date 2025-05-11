@@ -11,11 +11,7 @@ public class JinnRoom : MonoBehaviour
 
     private void Start()
     {
-        if (jinnData != null)
-        {
-            JinnManager.Instance?.AddJinn(jinnData);
-        }
-        else
+        if (jinnData == null)
         {
             Debug.LogWarning($"JinnRoom '{gameObject.name}' is missing jinnData!");
         }

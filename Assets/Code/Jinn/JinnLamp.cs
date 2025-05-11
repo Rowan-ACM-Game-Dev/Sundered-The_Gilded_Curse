@@ -9,9 +9,11 @@ public class JinnLamp : MonoBehaviour
     private bool isPlayerNearby = false;
     private InputAction interactAction;
 
+    [SerializeField]
+    private GameObject jinn;
+
     private void Awake()
     {
-        // Set up the input action for the "E" key (make sure the action is already defined in your Input Action asset)
         interactAction = new InputAction(binding: "<Keyboard>/e");
         interactAction.performed += ctx => AttemptBreakLamp();
         interactAction.Enable();
@@ -40,14 +42,18 @@ public class JinnLamp : MonoBehaviour
         if (!jinnData.hasBeenEncountered)
         {
             jinnData.hasBeenEncountered = true;
+            JinnManager.Instance?.CollectJinn(jinnData);
         }
 
         Destroy(gameObject, 0.5f);
+
+        if (jinn != null)
+            jinn.SetActive(true);
     }
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !isBroken)
         {
             Debug.Log("Player Touched the Lamp.");
             isPlayerNearby = true;
