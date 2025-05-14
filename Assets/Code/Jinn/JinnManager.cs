@@ -10,7 +10,8 @@ public class JinnManager : MonoBehaviour
         if (Instance == null)
             Instance = this;
         else
-            Destroy(gameObject);
+            Debug.LogWarning("Multiple instances of JinnManager detected.");
+            //Destroy(gameObject);
     }
 
     [System.Serializable]
@@ -54,6 +55,9 @@ public class JinnManager : MonoBehaviour
     private Jinn activeJinn; // Store the active Jinn
     public Jinn ActiveJinn => activeJinn; // Public getter for active Jinn
 
+    private List<Jinn> jinnList = new List<Jinn>(); // A list to store jinns in order for cycling
+    private int currentIndex = 0; // Track the current active Jinn
+
     public void CollectJinn(Jinn newJinn)
     {
         if (newJinn == null)
@@ -69,6 +73,7 @@ public class JinnManager : MonoBehaviour
         }
 
         collectedJinns.Add(newJinn.jinnName, newJinn);
+        jinnList.Add(newJinn); // Add new Jinn to the cycling list
         newJinn.hasBeenEncountered = true;
 
         AssignAbilityBasedOnJinn(newJinn);
@@ -88,7 +93,6 @@ public class JinnManager : MonoBehaviour
             SetActiveJinn(newJinn.jinnName);
         }
     }
-
 
     private void AssignAbilityBasedOnJinn(Jinn jinn)
     {
@@ -117,12 +121,27 @@ public class JinnManager : MonoBehaviour
         if (collectedJinns.ContainsKey(jinnName))
         {
             activeJinn = collectedJinns[jinnName];
+            currentIndex = jinnList.IndexOf(activeJinn); // Update current index
             Debug.Log($"Active Jinn set to: {activeJinn.jinnName}");
         }
         else
         {
             Debug.LogWarning($"Jinn '{jinnName}' not found in the collection.");
         }
+    }
+
+    public void CycleToNextJinn()
+    {
+        if (jinnList == null || jinnList.Count == 0)
+        {
+            Debug.LogWarning("No jinns collected to cycle through.");
+            return;
+        }
+
+        currentIndex = (currentIndex + 1) % jinnList.Count; // Move to the next Jinn in the list
+        SetActiveJinn(jinnList[currentIndex].jinnName);
+
+        Debug.Log($"Switched to Jinn: {ActiveJinn.jinnName}");
     }
 
     public bool HasCollected(string jinnName)

@@ -8,7 +8,10 @@ public class PlayerInputHandler : MonoBehaviour
     private PlayerDash dash;
     private PlayerDrag drag;
     private JinnAbilityController jinnAbilityController;
+    [SerializeField] private JinnManager jinnManager ;
+
     public InputSystem_Actions Actions => actions; // Public property to access actions
+
 
     private void Awake()
     {
@@ -17,6 +20,28 @@ public class PlayerInputHandler : MonoBehaviour
         dash = GetComponent<PlayerDash>();
         drag = GetComponent<PlayerDrag>();
         jinnAbilityController = GetComponent<JinnAbilityController>();
+
+        if (actions == null)
+        {
+            jinnManager = GetComponent<JinnManager>();
+            if (jinnManager == null)
+            {
+                Debug.LogWarning("JinnManager is not assigned in Inspector and not found on this GameObject.");
+            }
+        }
+        else
+        {
+            Debug.Log("JinnManager successfully assigned via Inspector.");
+        }
+
+        if (actions == null)
+        {
+            Debug.LogError("Actions object is not initialized.");
+        }
+        else if (actions.Player.Move == null || actions.Player.Dash == null)
+        {
+            Debug.LogError("Some actions in the Player action map are not initialized.");
+        }
     }
     private void OnEnable()
     {
@@ -36,13 +61,33 @@ public class PlayerInputHandler : MonoBehaviour
             Debug.Log("Z key pressed - UseAbility triggered!");
             jinnAbilityController?.UseJinnAbility();
         };
-
+        if (actions.Player.CycleAbility != null)
+        {
+            actions.Player.CycleAbility.Enable();
+            actions.Player.CycleAbility.performed += ctx =>
+            {
+                Debug.Log("X key pressed - Cycling to next ability.");
+                if (jinnManager != null)
+                {
+                    jinnManager.CycleToNextJinn(); // Cycle to next Jinn
+                }
+                else
+                {
+                    Debug.LogError("JinnManager is null, cannot cycle abilities.");
+                }
+            };
+        }
+        else
+        {
+            Debug.LogError("CycleAbility action is not properly set up or missing.");
+        }
     }
     private void OnDisable()
     {
-        actions.Player.Move.Disable();
-        actions.Player.Dash.Disable();
-        actions.Player.Drag.Disable();
-        actions.Player.UseAbility.Disable();
+            actions.Player.Move.Disable();
+            actions.Player.Dash.Disable();
+            actions.Player.Drag.Disable();
+            actions.Player.UseAbility.Disable();
+            actions.Player.CycleAbility.Disable();
     }
 }

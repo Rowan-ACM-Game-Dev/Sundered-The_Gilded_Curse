@@ -153,6 +153,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CycleAbility"",
+                    ""type"": ""Button"",
+                    ""id"": ""c7cb7767-06f9-45af-bd68-951b59eadef7"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -351,6 +360,17 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
                     ""action"": ""UseAbility"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7ba171d0-66de-495a-b0b2-2268200c93e5"",
+                    ""path"": ""<Keyboard>/x"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CycleAbility"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -945,6 +965,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player_Dash = m_Player.FindAction("Dash", throwIfNotFound: true);
         m_Player_Drag = m_Player.FindAction("Drag", throwIfNotFound: true);
         m_Player_UseAbility = m_Player.FindAction("UseAbility", throwIfNotFound: true);
+        m_Player_CycleAbility = m_Player.FindAction("CycleAbility", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1045,6 +1066,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Dash;
     private readonly InputAction m_Player_Drag;
     private readonly InputAction m_Player_UseAbility;
+    private readonly InputAction m_Player_CycleAbility;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -1084,6 +1106,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/UseAbility".
         /// </summary>
         public InputAction @UseAbility => m_Wrapper.m_Player_UseAbility;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/CycleAbility".
+        /// </summary>
+        public InputAction @CycleAbility => m_Wrapper.m_Player_CycleAbility;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1131,6 +1157,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @UseAbility.started += instance.OnUseAbility;
             @UseAbility.performed += instance.OnUseAbility;
             @UseAbility.canceled += instance.OnUseAbility;
+            @CycleAbility.started += instance.OnCycleAbility;
+            @CycleAbility.performed += instance.OnCycleAbility;
+            @CycleAbility.canceled += instance.OnCycleAbility;
         }
 
         /// <summary>
@@ -1163,6 +1192,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @UseAbility.started -= instance.OnUseAbility;
             @UseAbility.performed -= instance.OnUseAbility;
             @UseAbility.canceled -= instance.OnUseAbility;
+            @CycleAbility.started -= instance.OnCycleAbility;
+            @CycleAbility.performed -= instance.OnCycleAbility;
+            @CycleAbility.canceled -= instance.OnCycleAbility;
         }
 
         /// <summary>
@@ -1512,6 +1544,13 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnUseAbility(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "CycleAbility" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCycleAbility(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.

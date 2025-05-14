@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;  
 
 public class Room4TimedButton : MonoBehaviour
 {
@@ -10,6 +11,15 @@ public class Room4TimedButton : MonoBehaviour
     private Transform upperDoor;
     [SerializeField]
     private Transform lowerDoor;
+
+    [Header("Timer Settings")]
+    [SerializeField]
+    private float puzzleTime = 10f;
+    private float timeRemaining;
+
+    [Header("UI Elements")]
+    [SerializeField]
+    private Text timerText; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,8 +31,14 @@ public class Room4TimedButton : MonoBehaviour
 
     IEnumerator ActivateDoorTimed()
     {
-        print("Activated");
+        timeRemaining = puzzleTime;
         activated = true;
+        print("Puzzle Started");
+
+        if (timerText != null)
+        {
+            timerText.gameObject.SetActive(true);  
+        }
 
         Vector3 velocity1 = Vector3.zero;
         Vector3 velocity2 = Vector3.zero;
@@ -31,40 +47,61 @@ public class Room4TimedButton : MonoBehaviour
         Vector3 upperDoorClosePos = new Vector3(upperDoor.transform.localPosition.x, -3.069216f, upperDoor.transform.localPosition.z);
         Vector3 lowerDoorClosePos = new Vector3(lowerDoor.transform.localPosition.x, -5.05f, lowerDoor.transform.localPosition.z);
 
-        // Open Door
+        // Open the door
         print("Opening Door");
         float endTime = Time.time + 1;
 
-        while (true)
+        while (Time.time < endTime)
         {
-            upperDoor.localPosition = Vector3.SmoothDamp(upperDoor.localPosition, upperDoorOpenPos, ref velocity1, 0.5F);
-            lowerDoor.localPosition = Vector3.SmoothDamp(lowerDoor.localPosition, lowerDoorOpenPos, ref velocity2, 0.5F);
-
-            yield return null; // Executes every frame until door is done moving
-
-            if ((Time.time > endTime)) { break; }
+            upperDoor.localPosition = Vector3.SmoothDamp(upperDoor.localPosition, upperDoorOpenPos, ref velocity1, 0.5f);
+            lowerDoor.localPosition = Vector3.SmoothDamp(lowerDoor.localPosition, lowerDoorOpenPos, ref velocity2, 0.5f);
+            yield return null;
         }
 
-        // Close door
-
-        yield return new WaitForSeconds(3f);
-
-        print("Closing Door");
-        endTime = Time.time + 8;
-        velocity1 = Vector3.zero;
-        velocity2 = Vector3.zero;
-
-        while (true)
+        while (timeRemaining > 0f)
         {
-            upperDoor.localPosition = Vector3.SmoothDamp(upperDoor.localPosition, upperDoorClosePos, ref velocity1, 2F);
-            lowerDoor.localPosition = Vector3.SmoothDamp(lowerDoor.localPosition, lowerDoorClosePos, ref velocity2, 2F);
+            timeRemaining -= Time.deltaTime;
+            UpdateTimerDisplay();
 
-            yield return null; // Executes every frame until door is done moving
+            if (timeRemaining <= 0f)
+            {
+                print("Time's up!");
+                break;
+            }
 
-            if ((Time.time > endTime)) { break; }
+            yield return null;
         }
 
+        StartCoroutine(CloseDoors()); 
+
+        // Reset puzzle state after timer ends
         activated = false;
-        print("Stopped");
+        print("Puzzle Stopped");
+    }
+
+    void UpdateTimerDisplay()
+    {
+        if (timerText != null)
+        {
+            timerText.text = Mathf.Ceil(timeRemaining).ToString("0");  // Display the remaining time
+        }
+    }
+
+    IEnumerator CloseDoors()
+    {
+        print("Closing Door");
+        Vector3 velocity1 = Vector3.zero;
+        Vector3 velocity2 = Vector3.zero;
+        Vector3 upperDoorClosePos = new Vector3(upperDoor.transform.localPosition.x, -3.069216f, upperDoor.transform.localPosition.z);
+        Vector3 lowerDoorClosePos = new Vector3(lowerDoor.transform.localPosition.x, -5.05f, lowerDoor.transform.localPosition.z);
+
+        float endTime = Time.time + 8f;
+
+        while (Time.time < endTime)
+        {
+            upperDoor.localPosition = Vector3.SmoothDamp(upperDoor.localPosition, upperDoorClosePos, ref velocity1, 2f);
+            lowerDoor.localPosition = Vector3.SmoothDamp(lowerDoor.localPosition, lowerDoorClosePos, ref velocity2, 2f);
+            yield return null;
+        }
     }
 }
