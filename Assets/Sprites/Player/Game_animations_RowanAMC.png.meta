@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: faf5caabab554ce44889e6ec38c2cdb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8147240202745452861
+    second: Game_animations_RowanAMC_0
+  - first:
+      213: 7262919314176602662
+    second: Game_animations_RowanAMC_1
+  - first:
+      213: 5982182121273829463
+    second: Game_animations_RowanAMC_2
+  - first:
+      213: 4840829778952271780
+    second: Game_animations_RowanAMC_3
+  - first:
+      213: 3503521398652455790
+    second: Game_animations_RowanAMC_4
+  - first:
+      213: -2223553157694908496
+    second: Game_animations_RowanAMC_5
+  - first:
+      213: 2752643420874277936
+    second: Game_animations_RowanAMC_6
+  - first:
+      213: -4911657712055105005
+    second: Game_animations_RowanAMC_7
+  - first:
+      213: -6088626481569600293
+    second: Game_animations_RowanAMC_8
+  - first:
+      213: -4792662138625506925
+    second: Game_animations_RowanAMC_9
+  - first:
+      213: -1372469357886589179
+    second: Game_animations_RowanAMC_10
+  - first:
+      213: -6992235266856954234
+    second: Game_animations_RowanAMC_11
+  - first:
+      213: 301820095357177271
+    second: Game_animations_RowanAMC_12
+  - first:
+      213: 2668184290902408960
+    second: Game_animations_RowanAMC_13
+  - first:
+      213: -3781185606176208839
+    second: Game_animations_RowanAMC_14
+  - first:
+      213: -3031321855690039014
+    second: Game_animations_RowanAMC_15
+  - first:
+      213: -5295470973823793749
+    second: Game_animations_RowanAMC_16
+  - first:
+      213: 8744118239112189378
+    second: Game_animations_RowanAMC_17
+  - first:
+      213: -2009257711467039673
+    second: Game_animations_RowanAMC_18
+  - first:
+      213: 9147087843516254114
+    second: Game_animations_RowanAMC_19
+  - first:
+      213: -3485378570501543378
+    second: Game_animations_RowanAMC_20
+  - first:
+      213: -5758787400611276693
+    second: Game_animations_RowanAMC_21
+  - first:
+      213: -4322044564408157135
+    second: Game_animations_RowanAMC_22
+  - first:
+      213: 6983761166739312595
+    second: Game_animations_RowanAMC_23
+  - first:
+      213: 6738568085586335831
+    second: Game_animations_RowanAMC_24
+  - first:
+      213: -4090486425016668100
+    second: Game_animations_RowanAMC_25
+  - first:
+      213: 9027956186801960306
+    second: Game_animations_RowanAMC_26
+  - first:
+      213: 3081492154577866645
+    second: Game_animations_RowanAMC_27
+  - first:
+      213: 8359871525076081184
+    second: Game_animations_RowanAMC_28
+  - first:
+      213: -4773599451494854251
+    second: Game_animations_RowanAMC_29
+  - first:
+      213: 8776839014529523233
+    second: Game_animations_RowanAMC_30
+  - first:
+      213: 119862936189696809
+    second: Game_animations_RowanAMC_31
+  - first:
+      213: -1148147823560121158
+    second: Game_animations_RowanAMC_32
+  - first:
+      213: 1995670497018855817
+    second: Game_animations_RowanAMC_33
+  - first:
+      213: 7752569134794051044
+    second: Game_animations_RowanAMC_34
+  - first:
+      213: -4982443028838610072
+    second: Game_animations_RowanAMC_35
+  - first:
+      213: -2240166000791664236
+    second: Game_animations_RowanAMC_36
+  - first:
+      213: 1142622609960906499
+    second: Game_animations_RowanAMC_37
+  - first:
+      213: 6332058451157740912
+    second: Game_animations_RowanAMC_38
+  - first:
+      213: 8628016499953365140
+    second: Game_animations_RowanAMC_39
+  - first:
+      213: 7106041377920842683
+    second: Game_animations_RowanAMC_40
+  - first:
+      213: -3974832398005712800
+    second: Game_animations_RowanAMC_41
+  - first:
+      213: -7958771881350498942
+    second: Game_animations_RowanAMC_42
+  - first:
+      213: -1717063965493257582
+    second: Game_animations_RowanAMC_43
+  - first:
+      213: 5653431968140750101
+    second: Game_animations_RowanAMC_44
+  - first:
+      213: 1022096991488441486
+    second: Game_animations_RowanAMC_45
+  - first:
+      213: 9049460671242714195
+    second: Game_animations_RowanAMC_46
+  - first:
+      213: 8264721806487270449
+    second: Game_animations_RowanAMC_47
+  - first:
+      213: -2050037906296375621
+    second: Game_animations_RowanAMC_48
+  - first:
+      213: 1972462564957651724
+    second: Game_animations_RowanAMC_49
+  - first:
+      213: -1902380418842085534
+    second: Game_animations_RowanAMC_50
+  - first:
+      213: -3830557938953517531
+    second: Game_animations_RowanAMC_51
+  - first:
+      213: 4085242373214707630
+    second: Game_animations_RowanAMC_52
+  - first:
+      213: -1298917119723467356
+    second: Game_animations_RowanAMC_53
+  - first:
+      213: -1477831190665692174
+    second: Game_animations_RowanAMC_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1919
+        width: 122
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6639793303fee80800000000000000
+      internalID: -8147240202745452861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_1
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1919
+        width: 149
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622f1d9b2a21bc460800000000000000
+      internalID: 7262919314176602662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1919
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7582830c1faf40350800000000000000
+      internalID: 5982182121273829463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_3
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1803
+        width: 280
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7359049051e2340800000000000000
+      internalID: 4840829778952271780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_4
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1806
+        width: 295
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bc8ad46220f9030800000000000000
+      internalID: 3503521398652455790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_5
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1806
+        width: 277
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b795681f2a5421e0800000000000000
+      internalID: -2223553157694908496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_6
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1806
+        width: 253
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034078e6b9a533620800000000000000
+      internalID: 2752643420874277936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_7
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1793
+        width: 222
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ac5ae755946dbb0800000000000000
+      internalID: -4911657712055105005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1258
+        width: 261
+        height: 533
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdce104597ad08ba0800000000000000
+      internalID: -6088626481569600293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1500
+        width: 139
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39143c27d2b0d7db0800000000000000
+      internalID: -4792662138625506925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1502
+        width: 157
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507bf02046204fce0800000000000000
+      internalID: -1372469357886589179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_11
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1522
+        width: 206
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686580d321796fe90800000000000000
+      internalID: -6992235266856954234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_12
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1534
+        width: 233
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdc6d117c7403400800000000000000
+      internalID: 301820095357177271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_13
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1552
+        width: 260
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ff386d97b470520800000000000000
+      internalID: 2668184290902408960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_14
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1552
+        width: 263
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9380c0a89b7868bc0800000000000000
+      internalID: -3781185606176208839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_15
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1552
+        width: 264
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11a7b735d49ee5d0800000000000000
+      internalID: -3031321855690039014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_16
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1552
+        width: 264
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba547d6b435b286b0800000000000000
+      internalID: -5295470973823793749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_17
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1258
+        width: 251
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5db4cc539595970800000000000000
+      internalID: 8744118239112189378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_18
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1254
+        width: 239
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744fac5c1cead14e0800000000000000
+      internalID: -2009257711467039673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_19
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1249
+        width: 228
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7841a2eebf0fe70800000000000000
+      internalID: 9147087843516254114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_20
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1243
+        width: 226
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a2f7d08a271afc0800000000000000
+      internalID: -3485378570501543378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_21
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1258
+        width: 294
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68d199de5da410b0800000000000000
+      internalID: -5758787400611276693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_22
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1254
+        width: 489
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c3b0b2e530504c0800000000000000
+      internalID: -4322044564408157135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1003
+        width: 141
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df0aa397cd4be060800000000000000
+      internalID: 6983761166739312595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_24
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 998
+        width: 161
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758582ca8f3348d50800000000000000
+      internalID: 6738568085586335831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_25
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 998
+        width: 151
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30f25ec44cab37c0800000000000000
+      internalID: -4090486425016668100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_26
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1002
+        width: 215
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275fe1ad15eb94d70800000000000000
+      internalID: 9027956186801960306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_27
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1005
+        width: 170
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f44c3c9c8a3ca20800000000000000
+      internalID: 3081492154577866645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_28
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1005
+        width: 185
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a101c0cda340470800000000000000
+      internalID: 8359871525076081184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_29
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1003
+        width: 142
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59156a92794c0cdb0800000000000000
+      internalID: -4773599451494854251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_30
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1005
+        width: 308
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e52dff4989dc970800000000000000
+      internalID: 8776839014529523233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_31
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 993
+        width: 258
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b725594b6d9a100800000000000000
+      internalID: 119862936189696809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_32
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1001
+        width: 230
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4af0b33a5f010f0800000000000000
+      internalID: -1148147823560121158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 248
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98149875ebb02bb10800000000000000
+      internalID: 1995670497018855817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_34
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 743
+        width: 138
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed8e00ad88a69b60800000000000000
+      internalID: 7752569134794051044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 751
+        width: 152
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b0470a67ecadab0800000000000000
+      internalID: -4982443028838610072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_36
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 746
+        width: 678
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499c7e424e459e0e0800000000000000
+      internalID: -2240166000791664236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_37
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 867
+        width: 157
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fac0bb5396bdf00800000000000000
+      internalID: 1142622609960906499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_38
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 875
+        width: 136
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d6446dc9dffd750800000000000000
+      internalID: 6332058451157740912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_39
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 871
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490fde32b4fdcb770800000000000000
+      internalID: 8628016499953365140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_40
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 868
+        width: 145
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbf23adbfabd9260800000000000000
+      internalID: 7106041377920842683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_41
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 864
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068c72b5efe86d8c0800000000000000
+      internalID: -3974832398005712800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_42
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 860
+        width: 153
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2857cbb2423cc8190800000000000000
+      internalID: -7958771881350498942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_43
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 853
+        width: 160
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a9628bb63cb28e0800000000000000
+      internalID: -1717063965493257582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_44
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 857
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51deddefb66057e40800000000000000
+      internalID: 5653431968140750101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_45
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 850
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cf9a76cc73f2e00800000000000000
+      internalID: 1022096991488441486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 596
+        width: 167
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c3a4ec884269d70800000000000000
+      internalID: 9049460671242714195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_47
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 593
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1343913d1b032b270800000000000000
+      internalID: 8264721806487270449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_48
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 588
+        width: 178
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb67e13c26dcc83e0800000000000000
+      internalID: -2050037906296375621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 586
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c038e0590489f5b10800000000000000
+      internalID: 1972462564957651724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_50
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 580
+        width: 185
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267324b96136995e0800000000000000
+      internalID: -1902380418842085534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_51
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 573
+        width: 194
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5268f1589df17dac0800000000000000
+      internalID: -3830557938953517531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_52
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 565
+        width: 201
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf16dc3b42b1b830800000000000000
+      internalID: 4085242373214707630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_53
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 579
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad8536f2c159fde0800000000000000
+      internalID: -1298917119723467356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_animations_RowanAMC_54
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 572
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbf06aac50bd7be0800000000000000
+      internalID: -1477831190665692174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5807c66a0694167438058ce09ab5f3a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Game_animations_RowanAMC_0: -8147240202745452861
+      Game_animations_RowanAMC_1: 7262919314176602662
+      Game_animations_RowanAMC_10: -1372469357886589179
+      Game_animations_RowanAMC_11: -6992235266856954234
+      Game_animations_RowanAMC_12: 301820095357177271
+      Game_animations_RowanAMC_13: 2668184290902408960
+      Game_animations_RowanAMC_14: -3781185606176208839
+      Game_animations_RowanAMC_15: -3031321855690039014
+      Game_animations_RowanAMC_16: -5295470973823793749
+      Game_animations_RowanAMC_17: 8744118239112189378
+      Game_animations_RowanAMC_18: -2009257711467039673
+      Game_animations_RowanAMC_19: 9147087843516254114
+      Game_animations_RowanAMC_2: 5982182121273829463
+      Game_animations_RowanAMC_20: -3485378570501543378
+      Game_animations_RowanAMC_21: -5758787400611276693
+      Game_animations_RowanAMC_22: -4322044564408157135
+      Game_animations_RowanAMC_23: 6983761166739312595
+      Game_animations_RowanAMC_24: 6738568085586335831
+      Game_animations_RowanAMC_25: -4090486425016668100
+      Game_animations_RowanAMC_26: 9027956186801960306
+      Game_animations_RowanAMC_27: 3081492154577866645
+      Game_animations_RowanAMC_28: 8359871525076081184
+      Game_animations_RowanAMC_29: -4773599451494854251
+      Game_animations_RowanAMC_3: 4840829778952271780
+      Game_animations_RowanAMC_30: 8776839014529523233
+      Game_animations_RowanAMC_31: 119862936189696809
+      Game_animations_RowanAMC_32: -1148147823560121158
+      Game_animations_RowanAMC_33: 1995670497018855817
+      Game_animations_RowanAMC_34: 7752569134794051044
+      Game_animations_RowanAMC_35: -4982443028838610072
+      Game_animations_RowanAMC_36: -2240166000791664236
+      Game_animations_RowanAMC_37: 1142622609960906499
+      Game_animations_RowanAMC_38: 6332058451157740912
+      Game_animations_RowanAMC_39: 8628016499953365140
+      Game_animations_RowanAMC_4: 3503521398652455790
+      Game_animations_RowanAMC_40: 7106041377920842683
+      Game_animations_RowanAMC_41: -3974832398005712800
+      Game_animations_RowanAMC_42: -7958771881350498942
+      Game_animations_RowanAMC_43: -1717063965493257582
+      Game_animations_RowanAMC_44: 5653431968140750101
+      Game_animations_RowanAMC_45: 1022096991488441486
+      Game_animations_RowanAMC_46: 9049460671242714195
+      Game_animations_RowanAMC_47: 8264721806487270449
+      Game_animations_RowanAMC_48: -2050037906296375621
+      Game_animations_RowanAMC_49: 1972462564957651724
+      Game_animations_RowanAMC_5: -2223553157694908496
+      Game_animations_RowanAMC_50: -1902380418842085534
+      Game_animations_RowanAMC_51: -3830557938953517531
+      Game_animations_RowanAMC_52: 4085242373214707630
+      Game_animations_RowanAMC_53: -1298917119723467356
+      Game_animations_RowanAMC_54: -1477831190665692174
+      Game_animations_RowanAMC_6: 2752643420874277936
+      Game_animations_RowanAMC_7: -4911657712055105005
+      Game_animations_RowanAMC_8: -6088626481569600293
+      Game_animations_RowanAMC_9: -4792662138625506925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
