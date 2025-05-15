@@ -29,13 +29,12 @@ public class PlayerDrag : MonoBehaviour
     private void lockPlayerMovement(bool dragHorizontal)
     {
         if (dragHorizontal)
-            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
         else
-            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX;
     }
     private void unlockPlayerMovement()
     {
-        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
     }
     private void stickToPlayer()
