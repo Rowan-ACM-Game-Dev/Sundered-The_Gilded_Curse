@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DustCloud_Broken_Pot_0: -1989599137670571157
+      DustCloud_Broken_Pot_1: 3436274154270727121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
