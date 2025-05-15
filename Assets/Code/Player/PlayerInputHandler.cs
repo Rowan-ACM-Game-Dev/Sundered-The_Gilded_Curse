@@ -43,8 +43,14 @@ public class PlayerInputHandler : MonoBehaviour
             Debug.LogError("Some actions in the Player action map are not initialized.");
         }
     }
+
     private void OnEnable()
     {
+        if (actions == null)
+        {
+            actions = new InputSystem_Actions();
+        }
+
         actions.Player.Move.Enable();
         actions.Player.Move.performed += ctx => movement.SetDirection(ctx.ReadValue<Vector2>());
         actions.Player.Move.canceled += _ => movement.SetDirection(Vector2.zero);
