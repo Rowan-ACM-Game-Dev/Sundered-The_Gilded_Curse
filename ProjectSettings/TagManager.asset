@@ -7,6 +7,8 @@ TagManager:
   - Key
   - Pits
   - Platform
+  - JinnLamp
+  - Altar
   layers:
   - Default
   - TransparentFX
@@ -16,10 +18,10 @@ TagManager:
   - UI
   - Breakable
   - 
-  - 
-  - 
-  - 
-  - 
+  - RED
+  - PURPLE
+  - GREEN
+  - BLUE
   - 
   - 
   - 

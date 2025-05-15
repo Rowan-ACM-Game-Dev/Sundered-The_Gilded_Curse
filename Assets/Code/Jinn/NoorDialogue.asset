@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda38a1dcd850bd4ea853a371caf5bde, type: 3}
+  m_Name: NoorDialogue
+  m_EditorClassIdentifier: 
+  jinnName: 
+  sensedDialogue: "\u201CIn the First Days, they said her light could banish night
+    from the bones of the earth. Now it is trapped\u2026 flickering inside a cage
+    of gold.\u201D"
+  freedDialogue: "\"The path ahead is a long one, thief. But you cannot undo the
+    harm done by mankind alone. Noor\u2019s light returns to the world, not as salvation,
+    but as witness. We Jinn... we were once the guardians of breath and bone, flame
+    and root. Now we are ghosts of a ruined bloodline. If you truly mean to free
+    the others, reckless ambition will not suffice. You must learn reverence... and
+    restraint.\""
