@@ -33,15 +33,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Interact",
-                    "type": "Button",
-                    "id": "852140f2-7766-474d-8707-702459ba45f3",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "Hold",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Dash",
                     "type": "Button",
                     "id": "04b00d53-1789-4743-bf3d-dbf958263198",
@@ -72,6 +63,15 @@
                     "name": "CycleAbility",
                     "type": "Button",
                     "id": "c7cb7767-06f9-45af-bd68-951b59eadef7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "0ff078b8-88cb-4253-87b6-52aa77de51b3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -235,17 +235,6 @@
                 },
                 {
                     "name": "",
-                    "id": "1c04ea5f-b012-41d1-a6f7-02e963b52893",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "c17d96a4-9145-493e-9b7b-87ce09241fa4",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
@@ -285,6 +274,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "CycleAbility",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca63f909-79f3-4e16-96f7-0455196b391d",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

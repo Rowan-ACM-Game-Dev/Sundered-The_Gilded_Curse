@@ -8,10 +8,10 @@ public class PlayerInputHandler : MonoBehaviour
     private PlayerDash dash;
     private PlayerDrag drag;
     private JinnAbilityController jinnAbilityController;
+    private AltarCleansing currentAltar;
     [SerializeField] private JinnManager jinnManager ;
 
     public InputSystem_Actions Actions => actions; // Public property to access actions
-
 
     private void Awake()
     {
@@ -56,6 +56,22 @@ public class PlayerInputHandler : MonoBehaviour
         actions.Player.Drag.performed += _ => drag.Drag();
         actions.Player.Drag.canceled += _ => drag.StopDrag();
 
+        actions.Player.Interact.Enable();
+        actions.Player.Interact.performed += ctx =>
+        {
+            Debug.Log("E key pressed (Interact action)");
+
+            if (currentAltar != null)
+            {
+                Debug.Log("Calling Interact() on currentAltar");
+                currentAltar.Interact();
+            }
+            else
+            {
+                Debug.Log("No altar assigned to currentAltar.");
+            }
+        };
+
         actions.Player.UseAbility.Enable();
         actions.Player.UseAbility.performed += ctx => {
             Debug.Log("Z key pressed - UseAbility triggered!");
@@ -89,5 +105,10 @@ public class PlayerInputHandler : MonoBehaviour
             actions.Player.Drag.Disable();
             actions.Player.UseAbility.Disable();
             actions.Player.CycleAbility.Disable();
+    }
+
+    public void SetCurrentAltar(AltarCleansing altar)
+    {
+        currentAltar = altar;
     }
 }
