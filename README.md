@@ -1,4 +1,5 @@
 # 🐫 Sundered – The Gilded Curse
+Version: 0.0.1
 
 ## 👥 Team Structure & Branching Model
 
