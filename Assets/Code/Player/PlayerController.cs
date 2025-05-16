@@ -4,13 +4,20 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
+    public Vector2 Direction => direction;
+
     private Vector2 direction;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    public Vector2 FacingDirection { get; private set; } = Vector2.right;
 
     public void SetDirection(Vector2 dir)
     {
         direction = dir;
+        if (dir != Vector2.zero)
+        {
+            FacingDirection = dir.normalized;
+        }
     }
 
     private void Awake()

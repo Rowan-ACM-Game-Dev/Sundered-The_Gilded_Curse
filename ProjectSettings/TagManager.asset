@@ -9,6 +9,7 @@ TagManager:
   - Platform
   - JinnLamp
   - Altar
+  - Slashable
   layers:
   - Default
   - TransparentFX

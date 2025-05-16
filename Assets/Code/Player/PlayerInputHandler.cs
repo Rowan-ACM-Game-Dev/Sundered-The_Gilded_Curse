@@ -7,6 +7,7 @@ public class PlayerInputHandler : MonoBehaviour
     private PlayerController movement;
     private PlayerDash dash;
     private PlayerDrag drag;
+    private PlayerSlash slash;
     private JinnAbilityController jinnAbilityController;
     private AltarCleansing currentAltar;
     [SerializeField] private JinnManager jinnManager ;
@@ -19,6 +20,7 @@ public class PlayerInputHandler : MonoBehaviour
         movement = GetComponent<PlayerController>();
         dash = GetComponent<PlayerDash>();
         drag = GetComponent<PlayerDrag>();
+        slash = GetComponent<PlayerSlash>();
         jinnAbilityController = GetComponent<JinnAbilityController>();
 
         if (actions == null)
@@ -62,6 +64,9 @@ public class PlayerInputHandler : MonoBehaviour
         actions.Player.Drag.performed += _ => drag.Drag();
         actions.Player.Drag.canceled += _ => drag.StopDrag();
 
+        actions.Player.Slash.Enable();
+        actions.Player.Slash.performed += _ => slash?.Slash();
+
         actions.Player.Interact.Enable();
         actions.Player.Interact.performed += ctx =>
         {
@@ -83,6 +88,7 @@ public class PlayerInputHandler : MonoBehaviour
             Debug.Log("Z key pressed - UseAbility triggered!");
             jinnAbilityController?.UseJinnAbility();
         };
+        
         if (actions.Player.CycleAbility != null)
         {
             actions.Player.CycleAbility.Enable();
@@ -109,6 +115,7 @@ public class PlayerInputHandler : MonoBehaviour
             actions.Player.Move.Disable();
             actions.Player.Dash.Disable();
             actions.Player.Drag.Disable();
+            actions.Player.Slash.Disable();
             actions.Player.UseAbility.Disable();
             actions.Player.CycleAbility.Disable();
     }
