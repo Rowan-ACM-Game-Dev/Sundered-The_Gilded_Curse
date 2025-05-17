@@ -1,8 +1,7 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using System.Collections.Generic;
 
-public class ActivatePlatforms : MonoBehaviour
+public class ActivatePlatforms : MonoBehaviour, IActivatable
 {
     [System.Serializable]
     public class PlatformData
@@ -16,10 +15,10 @@ public class ActivatePlatforms : MonoBehaviour
         [HideInInspector] public Vector3 velocity = Vector3.zero;
     }
 
-    public bool Activated = false;
-    public List<PlatformData> platforms = new List<PlatformData>();
+    public bool activated = false;
+    public bool activateOnPlayerEnter = true;
+    public List<PlatformData> platforms = new();
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         foreach (var p in platforms)
@@ -30,22 +29,27 @@ public class ActivatePlatforms : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         foreach (var p in platforms)
         {
-            Vector3 targetPos = Activated ? p.onPos : p.offPos;
+            Vector3 targetPos = activated ? p.onPos : p.offPos;
             p.platform.position = Vector3.SmoothDamp(p.platform.position, targetPos, ref p.velocity, 0.3f);
         }
     }
 
+    public void Activate()
+    {
+        activated = !activated;
+        Debug.Log("Platforms toggled via IActivatable!");
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (activateOnPlayerEnter && collision.CompareTag("Player"))
         {
-            Debug.Log("Pressure Plate Activated!");
-            Activated = !Activated;
+            Debug.Log("Pressure Plate triggered ActivatePlatforms");
+            Activate();
         }
     }
 }

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerSlash : MonoBehaviour
 {
-    public float slashRange = 1.5f;
+    public float slashRange = 2f;
     public LayerMask slashableLayers;
 
     private PlayerController controller;
@@ -28,7 +28,6 @@ public class PlayerSlash : MonoBehaviour
             {
                 Debug.Log("Hit is valid slashable target!");
 
-                // Try to get ISlashable and call OnSlashed
                 ISlashable slashable = hit.collider.GetComponent<ISlashable>();
                 if (slashable != null)
                 {
