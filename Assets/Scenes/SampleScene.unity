@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 61531505}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 79914937}
   - component: {fileID: 79914936}
   - component: {fileID: 79914935}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -718,7 +718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 286579570}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -761,7 +761,7 @@ GameObject:
   - component: {fileID: 297831435}
   - component: {fileID: 297831434}
   - component: {fileID: 297831433}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2588,7 +2588,7 @@ GameObject:
   - component: {fileID: 621791947}
   - component: {fileID: 621791946}
   - component: {fileID: 621791945}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2722,7 +2722,7 @@ GameObject:
   - component: {fileID: 705800023}
   - component: {fileID: 705800022}
   - component: {fileID: 705800021}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3068,7 +3068,7 @@ GameObject:
   - component: {fileID: 738409228}
   - component: {fileID: 738409227}
   - component: {fileID: 738409226}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3336,7 +3336,7 @@ GameObject:
   - component: {fileID: 752969798}
   - component: {fileID: 752969797}
   - component: {fileID: 752969796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3755,7 +3755,7 @@ GameObject:
   - component: {fileID: 836207971}
   - component: {fileID: 836207970}
   - component: {fileID: 836207969}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4043,7 +4043,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 886208808}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4263,7 +4263,7 @@ GameObject:
   - component: {fileID: 918805217}
   - component: {fileID: 918805216}
   - component: {fileID: 918805215}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4549,7 +4549,7 @@ GameObject:
   - component: {fileID: 1027920266}
   - component: {fileID: 1027920265}
   - component: {fileID: 1027920264}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4683,7 +4683,7 @@ GameObject:
   - component: {fileID: 1048449035}
   - component: {fileID: 1048449034}
   - component: {fileID: 1048449033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4817,7 +4817,7 @@ GameObject:
   - component: {fileID: 1093953151}
   - component: {fileID: 1093953150}
   - component: {fileID: 1093953149}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5227,7 +5227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1171447126}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6101,7 +6101,7 @@ GameObject:
   - component: {fileID: 1345471286}
   - component: {fileID: 1345471285}
   - component: {fileID: 1345471284}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6351,8 +6351,8 @@ Transform:
   m_GameObject: {fileID: 1430255306}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: 24.610003, y: -4.94, z: 0.02881302}
-  m_LocalScale: {x: 0.10000001, y: 0.10000001, z: 1}
+  m_LocalPosition: {x: -4.45, y: -4.9, z: 0.02881302}
+  m_LocalScale: {x: 0.089545615, y: 0.089545615, z: 0.8954561}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 723722357}
@@ -6370,8 +6370,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 592660947}
+  sahiraDialogueSystem: {fileID: 1266462805}
   followSpeed: 5
   followDistance: 1.5
+  maxDistanceBeforeTeleport: 10
+  teleportCooldown: 3
+  wallLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  wallCheckRadius: 0.2
 --- !u!114 &1430255311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6585,7 +6592,7 @@ GameObject:
   - component: {fileID: 1500531033}
   - component: {fileID: 1500531032}
   - component: {fileID: 1500531035}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BrealableWall
   m_TagString: Slashable
   m_Icon: {fileID: 0}
@@ -6731,7 +6738,7 @@ GameObject:
   - component: {fileID: 1513767418}
   - component: {fileID: 1513767417}
   - component: {fileID: 1513767416}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6943,7 +6950,7 @@ GameObject:
   - component: {fileID: 1617295308}
   - component: {fileID: 1617295307}
   - component: {fileID: 1617295306}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7237,7 +7244,7 @@ GameObject:
   - component: {fileID: 1650205360}
   - component: {fileID: 1650205359}
   - component: {fileID: 1650205358}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7371,7 +7378,7 @@ GameObject:
   - component: {fileID: 1704971364}
   - component: {fileID: 1704971363}
   - component: {fileID: 1704971362}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7766,7 +7773,7 @@ GameObject:
   - component: {fileID: 1788589040}
   - component: {fileID: 1788589039}
   - component: {fileID: 1788589038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8001,7 +8008,7 @@ GameObject:
   - component: {fileID: 1876223098}
   - component: {fileID: 1876223097}
   - component: {fileID: 1876223096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8429,7 +8436,7 @@ GameObject:
   - component: {fileID: 2014278601}
   - component: {fileID: 2014278600}
   - component: {fileID: 2014278599}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8563,7 +8570,7 @@ GameObject:
   - component: {fileID: 2065324434}
   - component: {fileID: 2065324433}
   - component: {fileID: 2065324432}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8784,7 +8791,7 @@ GameObject:
   - component: {fileID: 2130472493}
   - component: {fileID: 2130472492}
   - component: {fileID: 2130472491}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8918,7 +8925,7 @@ GameObject:
   - component: {fileID: 2137235465}
   - component: {fileID: 2137235464}
   - component: {fileID: 2137235463}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
