@@ -6,11 +6,11 @@ public class SahiraDialogueList : MonoBehaviour
     [TextArea(2, 5)]
     public List<string> teleportDialogues = new List<string>()
     {
-        "I'm here!",
-        "Don't worry, I'm right behind you.",
-        "Let's keep moving!",
-        "You can't get rid of me that easily!",
-        "Back to you, safely."
+        "The sands shift, and I return to your shadow",
+        "Worry breeds carelessness. I remain where I must — behind you, unseen but unwavering.",
+        "Stillness invites ruin. We move — before the past catches us.",
+        "Did you think me so easily severed, thief? I am bound — by ash, by oath, by fate.",
+        "Drawn back by ruin’s scent... or perhaps by concern. Either way, I’ve returned unharmed."
     };
 
     public string GetRandomTeleportDialogue()
