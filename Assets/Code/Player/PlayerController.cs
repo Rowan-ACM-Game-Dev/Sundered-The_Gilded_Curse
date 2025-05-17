@@ -26,6 +26,16 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    private void Start()
+    {
+        SaveData savedData = SaveSystem.Load();
+        if (savedData != null && savedData.sceneName == UnityEngine.SceneManagement.SceneManager.GetActiveScene().name)
+        {
+            transform.position = savedData.respawnPosition;
+            Debug.Log("Player loaded at saved altar position.");
+        }
+    }
+
     private void FixedUpdate()
     {
         var dash = GetComponent<PlayerDash>();
@@ -43,7 +53,7 @@ public class PlayerController : MonoBehaviour
     {
         if (direction.x > 0)
         {
-            spriteRenderer.flipX = false; 
+            spriteRenderer.flipX = false;
             //Debug.Log("Player is facing Right");
         }
         else if (direction.x < 0)
@@ -53,12 +63,12 @@ public class PlayerController : MonoBehaviour
         }
         else if (direction.y > 0)
         {
-            spriteRenderer.flipX = false; 
+            spriteRenderer.flipX = false;
             //Debug.Log("Player is facing Up");
         }
         else if (direction.y < 0)
         {
-            spriteRenderer.flipX = false; 
+            spriteRenderer.flipX = false;
             //Debug.Log("Player is facing Down");
         }
     }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AltarCleansing : MonoBehaviour
 {
@@ -19,9 +20,21 @@ public class AltarCleansing : MonoBehaviour
     private void Cleanse()
     {
         isCleansed = true;
-        Debug.Log("The altar has been cleansed! Sword/Dagger purisfied.");
-        //TODO: Add save syste ad weapon cleansing logic here later
+        Debug.Log("The altar has been cleansed! Sword/Dagger purified.");
+
+        Vector3 savePosition = transform.position;
+        string sceneName = SceneManager.GetActiveScene().name;
+
+        SaveData data = new SaveData
+        {
+            respawnPosition = new Vector2(savePosition.x, savePosition.y),
+            sceneName = sceneName,
+            weaponCleansed = true
+        };
+
+        SaveSystem.Save(data);
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
