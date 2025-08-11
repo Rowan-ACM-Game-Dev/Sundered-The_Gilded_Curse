@@ -1,11 +1,11 @@
-# 🐫 Sundered – The Gilded Curse
+# Sundered – The Gilded Curse
 Version: 0.0.1
 
-## 👥 Team Structure & Branching Model
+## Team Structure & Branching Model
 
 To keep development smooth and conflict-free, we've structured our GitHub repo with **dedicated branches per team**.
 
-### 🌳 Branching Guide
+### Branching Guide
 
 | Branch         | Purpose                           | Owner / Team       |
 |----------------|-----------------------------------|--------------------|
@@ -18,7 +18,7 @@ To keep development smooth and conflict-free, we've structured our GitHub repo w
 
 ---
 
-## 🔐 Branch Protection Rules
+## Branch Protection Rules
 
 ### `main`
 - 🔒 No direct commits allowed
