@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda38a1dcd850bd4ea853a371caf5bde, type: 3}
+  m_Name: NasiimDialogue
+  m_EditorClassIdentifier: 
+  jinnName: 
+  sensedDialogue: "\u201CBefore the end came, he was the last to speak. And when
+    his voice was sealed, silence bled across the land. Where he waits, even memory
+    holds its breath.\""
+  freedDialogue: '"He is the last to remain here. He who warned the kings. He who
+    pleaded for their mercy. When they turned away, he ignited the heavens with fire.
+    Upon his fall, the stars disappeared, and the sands became empty. He has waited
+    long, thief... but not for forgiveness."'

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda38a1dcd850bd4ea853a371caf5bde, type: 3}
+  m_Name: NaarDialogue
+  m_EditorClassIdentifier: 
+  jinnName: 
+  sensedDialogue: "\u201CThere was a time when his fire fed the city\u2019s heart.
+    That warmth is gone. What\u2019s left... only remembers the burning.\u201D"
+  freedDialogue: "\u201CThere was a time when his fire fed the city\u2019s heart.
+    That warmth is gone. What\u2019s left... only remembers the burning.\u201D"
