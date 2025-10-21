@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: dcf495ca12dc17a4d9de02d89dd4fb7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4770238130766078680
+    second: statue with jar and waterfall loop _0
+  - first:
+      213: -5761098408762624693
+    second: statue with jar and waterfall loop _1
+  - first:
+      213: -4994729213096941247
+    second: statue with jar and waterfall loop _2
+  - first:
+      213: -4099164461584612063
+    second: statue with jar and waterfall loop _3
+  - first:
+      213: 3678694518393607319
+    second: statue with jar and waterfall loop _4
+  - first:
+      213: -7947387413848518827
+    second: statue with jar and waterfall loop _5
+  - first:
+      213: 4571362173661672472
+    second: statue with jar and waterfall loop _6
+  - first:
+      213: 227058827852329340
+    second: statue with jar and waterfall loop _7
+  - first:
+      213: -3703419338641118468
+    second: statue with jar and waterfall loop _8
+  - first:
+      213: 1551362292423273219
+    second: statue with jar and waterfall loop _9
+  - first:
+      213: 4781107252515644102
+    second: statue with jar and waterfall loop _10
+  - first:
+      213: 4237577174825426150
+    second: statue with jar and waterfall loop _11
+  - first:
+      213: -7643174159838604362
+    second: statue with jar and waterfall loop _12
+  - first:
+      213: 2717729587542631560
+    second: statue with jar and waterfall loop _13
+  - first:
+      213: 8489848657634469193
+    second: statue with jar and waterfall loop _14
+  - first:
+      213: -631577639241352213
+    second: statue with jar and waterfall loop _15
+  - first:
+      213: -698062048064359987
+    second: statue with jar and waterfall loop _16
+  - first:
+      213: -7876011801066608508
+    second: statue with jar and waterfall loop _17
+  - first:
+      213: 1760154269562403317
+    second: statue with jar and waterfall loop _18
+  - first:
+      213: 4076036196724292648
+    second: statue with jar and waterfall loop _19
+  - first:
+      213: -1462158604369790822
+    second: statue with jar and waterfall loop _20
+  - first:
+      213: 6537408045147133821
+    second: statue with jar and waterfall loop _21
+  - first:
+      213: 408118138606818197
+    second: statue with jar and waterfall loop _22
+  - first:
+      213: -6668536592080593308
+    second: statue with jar and waterfall loop _23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 147
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d1aa1a1b5bccdb0800000000000000
+      internalID: -4770238130766078680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 99
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45b2a555877c00b0800000000000000
+      internalID: -5761098408762624693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 99
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14927107e382faab0800000000000000
+      internalID: -4994729213096941247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 99
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1250857f3a7dc17c0800000000000000
+      internalID: -4099164461584612063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 99
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79417068c295d0330800000000000000
+      internalID: 3678694518393607319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 99
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f0621114535b190800000000000000
+      internalID: -7947387413848518827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 99
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814f2c44dadb07f30800000000000000
+      internalID: 4571362173661672472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _7
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 99
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7131490dcca62300800000000000000
+      internalID: 227058827852329340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 99
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaebf9abbfca9cc0800000000000000
+      internalID: -3703419338641118468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 51
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b23d519cb878510800000000000000
+      internalID: 1551362292423273219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 51
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c22d3bf6b7e95240800000000000000
+      internalID: 4781107252515644102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 51
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecd5c52df5eeca30800000000000000
+      internalID: 4237577174825426150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 51
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3106ec89dfde590800000000000000
+      internalID: -7643174159838604362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8842c0529a057b520800000000000000
+      internalID: 2717729587542631560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945212b7f5002d570800000000000000
+      internalID: 8489848657634469193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb70fcbb7f2c37f0800000000000000
+      internalID: -631577639241352213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc131f9044cff46f0800000000000000
+      internalID: -698062048064359987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _17
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488e3aeeef8c2b290800000000000000
+      internalID: -7876011801066608508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _18
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f977238bf25d6810800000000000000
+      internalID: 1760154269562403317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _19
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cb26d335df09830800000000000000
+      internalID: 4076036196724292648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _20
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98f1450f7e55bbe0800000000000000
+      internalID: -1462158604369790822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _21
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7796cafaf989ba50800000000000000
+      internalID: 6537408045147133821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _22
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5939d06e84de9a500800000000000000
+      internalID: 408118138606818197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statue with jar and waterfall loop _23
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 3
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e97590d499473a0800000000000000
+      internalID: -6668536592080593308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
