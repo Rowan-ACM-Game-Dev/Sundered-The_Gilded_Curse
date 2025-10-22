@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      decor_dead_bush2_0: 6801777240612171537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

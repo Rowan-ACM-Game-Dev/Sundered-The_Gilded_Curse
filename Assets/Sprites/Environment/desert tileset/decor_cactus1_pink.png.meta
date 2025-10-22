@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      decor_cactus1_pink_0: 906053562624754674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

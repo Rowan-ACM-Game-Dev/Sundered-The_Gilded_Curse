@@ -609,7 +609,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x32 Walk Cycle-Sheet_0: -8374016873116101992
+      16x32 Walk Cycle-Sheet_1: -1249825725615083774
+      16x32 Walk Cycle-Sheet_10: -5664153724751191821
+      16x32 Walk Cycle-Sheet_11: 3687865695725240105
+      16x32 Walk Cycle-Sheet_12: -3239907687967468659
+      16x32 Walk Cycle-Sheet_13: 3460617834038181223
+      16x32 Walk Cycle-Sheet_14: -2104981466644978115
+      16x32 Walk Cycle-Sheet_15: 680843757630252391
+      16x32 Walk Cycle-Sheet_16: 883199737909178974
+      16x32 Walk Cycle-Sheet_17: -8389626101538880421
+      16x32 Walk Cycle-Sheet_18: -5634380535148752799
+      16x32 Walk Cycle-Sheet_19: -1298198996878177370
+      16x32 Walk Cycle-Sheet_2: -1918126032480079268
+      16x32 Walk Cycle-Sheet_3: -2774213994852390675
+      16x32 Walk Cycle-Sheet_4: -955587321532996388
+      16x32 Walk Cycle-Sheet_5: -5724546860922856365
+      16x32 Walk Cycle-Sheet_6: -1816189670486829804
+      16x32 Walk Cycle-Sheet_7: 6349917766656419238
+      16x32 Walk Cycle-Sheet_8: -3950071405263906929
+      16x32 Walk Cycle-Sheet_9: -2662090092517415412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

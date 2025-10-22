@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      slate_to_land_0: -4583801452331025534
+      slate_to_land_1: 3821059171171563863
+      slate_to_land_2: -3747398092806384796
+      slate_to_land_3: 1436699038245346231
+      slate_to_land_4: -2719171758380790872
+      slate_to_land_5: -7548734676532632488
+      slate_to_land_6: 4855627900304716751
+      slate_to_land_7: 7363072248182772994
+      slate_to_land_8: -4704848656443900373
+      slate_to_land_9: 318768219186717461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

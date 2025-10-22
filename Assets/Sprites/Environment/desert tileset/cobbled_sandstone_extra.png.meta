@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cobbled_sandstone_extra_0: -8913616325841259529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

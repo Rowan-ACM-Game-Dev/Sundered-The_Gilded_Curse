@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      decor_iris2_0: 1229275933515707534
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

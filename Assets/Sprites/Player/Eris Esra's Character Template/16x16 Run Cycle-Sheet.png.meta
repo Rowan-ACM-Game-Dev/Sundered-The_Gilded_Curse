@@ -859,7 +859,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x16 Run Cycle-Sheet_0: 3417955033411126929
+      16x16 Run Cycle-Sheet_1: 3820480008127263124
+      16x16 Run Cycle-Sheet_10: -2838237177604442512
+      16x16 Run Cycle-Sheet_11: 2937024711550667650
+      16x16 Run Cycle-Sheet_12: 7968484099798851921
+      16x16 Run Cycle-Sheet_13: -8276333575264194829
+      16x16 Run Cycle-Sheet_14: 8869592579887303370
+      16x16 Run Cycle-Sheet_15: 4665870924129059539
+      16x16 Run Cycle-Sheet_16: -1108795632611058754
+      16x16 Run Cycle-Sheet_17: 6719381811594714411
+      16x16 Run Cycle-Sheet_18: -2383101554895963246
+      16x16 Run Cycle-Sheet_19: 1927284991245511231
+      16x16 Run Cycle-Sheet_2: 41207515351048302
+      16x16 Run Cycle-Sheet_20: -6022459101111948420
+      16x16 Run Cycle-Sheet_21: -2229011835082469169
+      16x16 Run Cycle-Sheet_22: -6945577764265413248
+      16x16 Run Cycle-Sheet_23: 8908684163561084292
+      16x16 Run Cycle-Sheet_24: 5732924069432115745
+      16x16 Run Cycle-Sheet_25: 4531156916068465328
+      16x16 Run Cycle-Sheet_26: -1038107986389617874
+      16x16 Run Cycle-Sheet_27: 100678469925080848
+      16x16 Run Cycle-Sheet_28: 1081109402427569322
+      16x16 Run Cycle-Sheet_29: -4569391141362413229
+      16x16 Run Cycle-Sheet_3: 8779493705894946569
+      16x16 Run Cycle-Sheet_4: 3549738539994116099
+      16x16 Run Cycle-Sheet_5: 4920522742468910407
+      16x16 Run Cycle-Sheet_6: 5978932856809134720
+      16x16 Run Cycle-Sheet_7: -6945089658545961120
+      16x16 Run Cycle-Sheet_8: 8984834583883948112
+      16x16 Run Cycle-Sheet_9: 6455258113961730378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

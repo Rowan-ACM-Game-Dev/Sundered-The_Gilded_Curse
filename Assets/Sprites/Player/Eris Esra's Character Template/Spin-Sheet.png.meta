@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spin-Sheet_0: 4376390111421624477
+      Spin-Sheet_1: 7269432435088172266
+      Spin-Sheet_10: -250571715806322523
+      Spin-Sheet_11: -8910273577472143894
+      Spin-Sheet_12: -591930993661290734
+      Spin-Sheet_13: 3460472846544383158
+      Spin-Sheet_14: -1593905049571352470
+      Spin-Sheet_15: 5744216053284323256
+      Spin-Sheet_2: -5300879884462064977
+      Spin-Sheet_3: 4898846599680475425
+      Spin-Sheet_4: -4389399524032707724
+      Spin-Sheet_5: 6833847271869859793
+      Spin-Sheet_6: -187299081830808496
+      Spin-Sheet_7: 5128503773685131167
+      Spin-Sheet_8: 470667093227065517
+      Spin-Sheet_9: 5647977717758230561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -559,7 +559,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Radial-Sheet_0: 7226267717523139096
+      Radial-Sheet_1: -6226722855275373725
+      Radial-Sheet_10: 536927256465730084
+      Radial-Sheet_11: -3422149431154536511
+      Radial-Sheet_12: -5618233608087968528
+      Radial-Sheet_13: -8773667227056885966
+      Radial-Sheet_14: 3562281224590061358
+      Radial-Sheet_15: -1299181211201849559
+      Radial-Sheet_16: 1777332380935752221
+      Radial-Sheet_17: 4646593010568019099
+      Radial-Sheet_2: -8622972601527920209
+      Radial-Sheet_3: -3481526179822048187
+      Radial-Sheet_4: -8494850719358125344
+      Radial-Sheet_5: 1498008879326027309
+      Radial-Sheet_6: 6841850512424016857
+      Radial-Sheet_7: -3585130984576124821
+      Radial-Sheet_8: -1981423347114179518
+      Radial-Sheet_9: -891260482319673543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

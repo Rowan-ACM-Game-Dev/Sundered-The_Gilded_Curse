@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sandstone_0: -4783801984881171517
+      sandstone_1: -3258032271512104918
+      sandstone_2: -4374678464454458596
+      sandstone_3: -8169647859126742429
+      sandstone_4: 9114850626208730316
+      sandstone_5: -4718770198275689235
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

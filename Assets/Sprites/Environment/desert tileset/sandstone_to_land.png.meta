@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sandstone_to_land_0: 6525462363159450146
+      sandstone_to_land_1: 1917784680427242611
+      sandstone_to_land_2: -2404275137809504807
+      sandstone_to_land_3: 3536599400912654845
+      sandstone_to_land_4: 2112131041160542537
+      sandstone_to_land_5: -7946896195497603840
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

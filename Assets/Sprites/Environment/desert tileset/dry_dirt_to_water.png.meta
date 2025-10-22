@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dry_dirt_to_water_0: -6691613734448688425
+      dry_dirt_to_water_1: -5061519610836306257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
