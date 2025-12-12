@@ -11,6 +11,10 @@ PluginImporter:
       enabled: 1
       settings:
         CPU: ARM64
+<<<<<<< Updated upstream
+=======
+        Is16KbAligned: true
+>>>>>>> Stashed changes
     Any:
       enabled: 0
       settings: {}
@@ -25,6 +29,12 @@ AssetOrigin:
   serializedVersion: 1
   productId: 161631
   packageName: FMOD for Unity (2.02)
+<<<<<<< Updated upstream
   packageVersion: 2.02.28
   assetPath: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so
   uploadId: 745941
+=======
+  packageVersion: 2.02.32
+  assetPath: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so
+  uploadId: 821718
+>>>>>>> Stashed changes

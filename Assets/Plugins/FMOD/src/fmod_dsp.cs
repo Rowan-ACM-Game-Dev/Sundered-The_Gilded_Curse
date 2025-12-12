@@ -64,7 +64,11 @@ namespace FMOD
 
     public enum DSP_PROCESS_OPERATION
     {
+<<<<<<< Updated upstream
         PROCESS_PERFORM = 0,
+=======
+        PROCESS_PERFORM,
+>>>>>>> Stashed changes
         PROCESS_QUERY
     }
 
@@ -172,7 +176,11 @@ namespace FMOD
 
     public enum DSP_PARAMETER_TYPE
     {
+<<<<<<< Updated upstream
         FLOAT = 0,
+=======
+        FLOAT,
+>>>>>>> Stashed changes
         INT,
         BOOL,
         DATA,
@@ -181,7 +189,11 @@ namespace FMOD
 
     public enum DSP_PARAMETER_FLOAT_MAPPING_TYPE
     {
+<<<<<<< Updated upstream
         DSP_PARAMETER_FLOAT_MAPPING_TYPE_LINEAR = 0,
+=======
+        DSP_PARAMETER_FLOAT_MAPPING_TYPE_LINEAR,
+>>>>>>> Stashed changes
         DSP_PARAMETER_FLOAT_MAPPING_TYPE_AUTO,
         DSP_PARAMETER_FLOAT_MAPPING_TYPE_PIECEWISE_LINEAR,
     }

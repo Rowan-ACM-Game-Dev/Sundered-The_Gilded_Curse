@@ -1010,7 +1010,11 @@ retry:
             else
             {
                 Instance.loadingBanksRef++;
+<<<<<<< Updated upstream
                 assetReference.LoadAssetAsync<TextAsset>().Completed += (obj) =>
+=======
+                Addressables.LoadAssetAsync<TextAsset>(assetReference).Completed += (obj) =>
+>>>>>>> Stashed changes
                 {
                     if (!obj.IsValid())
                     {
@@ -1028,7 +1032,11 @@ retry:
                         completionCallback();
                     }
 
+<<<<<<< Updated upstream
                     assetReference.ReleaseAsset();
+=======
+                    Addressables.Release(obj);
+>>>>>>> Stashed changes
                 };
 
             }

@@ -19,7 +19,11 @@ namespace FMOD
     */
     public partial class VERSION
     {
+<<<<<<< Updated upstream
         public const int    number = 0x00020228;
+=======
+        public const int    number = 0x00020232;
+>>>>>>> Stashed changes
 #if !UNITY_2019_4_OR_NEWER
         public const string dll    = "fmod";
 #endif
@@ -435,7 +439,11 @@ namespace FMOD
 
     public enum OPENSTATE : int
     {
+<<<<<<< Updated upstream
         READY = 0,
+=======
+        READY,
+>>>>>>> Stashed changes
         LOADING,
         ERROR,
         CONNECTING,
@@ -600,7 +608,11 @@ namespace FMOD
 
     public enum TAGTYPE : int
     {
+<<<<<<< Updated upstream
         UNKNOWN = 0,
+=======
+        UNKNOWN,
+>>>>>>> Stashed changes
         ID3V1,
         ID3V2,
         VORBISCOMMENT,
@@ -617,7 +629,11 @@ namespace FMOD
 
     public enum TAGDATATYPE : int
     {
+<<<<<<< Updated upstream
         BINARY = 0,
+=======
+        BINARY,
+>>>>>>> Stashed changes
         INT,
         FLOAT,
         STRING,
@@ -3359,7 +3375,11 @@ namespace FMOD
         }
         public RESULT setParameterData(int index, byte[] data)
         {
+<<<<<<< Updated upstream
             return FMOD5_DSP_SetParameterData(this.handle, index, Marshal.UnsafeAddrOfPinnedArrayElement(data, 0), (uint)data.Length);
+=======
+            return FMOD5_DSP_SetParameterData(this.handle, index, data, data == null ? 0 : (uint)data.Length);
+>>>>>>> Stashed changes
         }
         public RESULT getParameterFloat(int index, out float value)
         {
@@ -3511,7 +3531,11 @@ namespace FMOD
         [DllImport(VERSION.dll)]
         private static extern RESULT FMOD5_DSP_SetParameterBool          (IntPtr dsp, int index, bool value);
         [DllImport(VERSION.dll)]
+<<<<<<< Updated upstream
         private static extern RESULT FMOD5_DSP_SetParameterData          (IntPtr dsp, int index, IntPtr data, uint length);
+=======
+        private static extern RESULT FMOD5_DSP_SetParameterData          (IntPtr dsp, int index, byte[] data, uint length);
+>>>>>>> Stashed changes
         [DllImport(VERSION.dll)]
         private static extern RESULT FMOD5_DSP_GetParameterFloat         (IntPtr dsp, int index, out float value, IntPtr valuestr, int valuestrlen);
         [DllImport(VERSION.dll)]

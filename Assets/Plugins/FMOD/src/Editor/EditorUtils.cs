@@ -535,6 +535,19 @@ namespace FMODUnity
                 RuntimeUtils.DebugLogWarning("FMOD Studio: Cannot open fmod_editor.log. Logging will be disabled for importing and previewing");
             }
 
+<<<<<<< Updated upstream
+=======
+            result = AttemptInitialize(out system);
+            if (result != FMOD.RESULT.OK)
+            {
+                RuntimeUtils.DebugLogErrorFormat("[FMOD] Studio::System::initialize returned {0}, defaulting to no-sound mode.", result.ToString());
+                CheckResult(AttemptInitialize(out system, FMOD.OUTPUTTYPE.NOSOUND));
+            }
+        }
+
+        private static FMOD.RESULT AttemptInitialize(out FMOD.Studio.System system, FMOD.OUTPUTTYPE outputType = FMOD.OUTPUTTYPE.AUTODETECT)
+        {
+>>>>>>> Stashed changes
             CheckResult(FMOD.Studio.System.create(out system));
 
             FMOD.System lowlevel;
@@ -544,6 +557,11 @@ namespace FMODUnity
             speakerMode = Settings.Instance.PlayInEditorPlatform.SpeakerMode;
             CheckResult(lowlevel.setSoftwareFormat(0, speakerMode, 0));
 
+<<<<<<< Updated upstream
+=======
+            CheckResult(lowlevel.setOutput(outputType));
+
+>>>>>>> Stashed changes
             encryptionKey = Settings.Instance.EncryptionKey;
             if (!string.IsNullOrEmpty(encryptionKey))
             {
@@ -551,6 +569,7 @@ namespace FMODUnity
                 CheckResult(system.setAdvancedSettings(studioAdvancedSettings, encryptionKey));
             }
 
+<<<<<<< Updated upstream
             CheckResult(system.initialize(256, FMOD.Studio.INITFLAGS.ALLOW_MISSING_PLUGINS | FMOD.Studio.INITFLAGS.SYNCHRONOUS_UPDATE, FMOD.INITFLAGS.NORMAL, IntPtr.Zero));
 
             FMOD.ChannelGroup master;
@@ -558,6 +577,22 @@ namespace FMODUnity
             FMOD.DSP masterHead;
             CheckResult(master.getDSP(FMOD.CHANNELCONTROL_DSP_INDEX.HEAD, out masterHead));
             CheckResult(masterHead.setMeteringEnabled(false, true));
+=======
+            FMOD.RESULT result =  system.initialize(256, FMOD.Studio.INITFLAGS.ALLOW_MISSING_PLUGINS | FMOD.Studio.INITFLAGS.SYNCHRONOUS_UPDATE, FMOD.INITFLAGS.NORMAL, IntPtr.Zero);
+            if (result == FMOD.RESULT.OK)
+            {
+                FMOD.ChannelGroup master;
+                CheckResult(lowlevel.getMasterChannelGroup(out master));
+                FMOD.DSP masterHead;
+                CheckResult(master.getDSP(FMOD.CHANNELCONTROL_DSP_INDEX.HEAD, out masterHead));
+                CheckResult(masterHead.setMeteringEnabled(false, true));
+                return FMOD.RESULT.OK;
+            }
+            else
+            {
+                return result;
+            }
+>>>>>>> Stashed changes
         }
 
         public static void UpdateParamsOnEmitter(SerializedObject serializedObject, string path)
@@ -1314,10 +1349,20 @@ namespace FMODUnity
         private const string AnyCPU = "AnyCPU";
 
         private static readonly LibInfo[] LibrariesToUpdate = {
+<<<<<<< Updated upstream
             new LibInfo() {cpu = "x86", os = "Windows",  lib = "fmodstudioL.dll", platform = "win", buildTarget = BuildTarget.StandaloneWindows},
             new LibInfo() {cpu = "x86_64", os = "Windows", lib = "fmodstudioL.dll", platform = "win", buildTarget = BuildTarget.StandaloneWindows64},
             new LibInfo() {cpu = "x86_64", os = "Linux", lib = "libfmodstudioL.so", platform = "linux", buildTarget = BuildTarget.StandaloneLinux64},
             new LibInfo() {cpu = AnyCPU, os = "OSX", lib = "fmodstudioL.bundle", platform = "mac", buildTarget = BuildTarget.StandaloneOSX},
+=======
+            new LibInfo() {cpu = "x86", os = "Windows",  lib = "fmodstudioL.dll", platform = "win", setPlatformCPU = false, buildTarget = BuildTarget.StandaloneWindows},
+            new LibInfo() {cpu = "x86_64", os = "Windows", lib = "fmodstudioL.dll", platform = "win", setPlatformCPU = false, buildTarget = BuildTarget.StandaloneWindows64},
+            new LibInfo() {cpu = "x86_64", os = "Linux", lib = "libfmodstudioL.so", platform = "linux", setPlatformCPU = false, buildTarget = BuildTarget.StandaloneLinux64},
+            new LibInfo() {cpu = AnyCPU, os = "OSX", lib = "fmodstudioL.bundle", platform = "mac", setPlatformCPU = true, buildTarget = BuildTarget.StandaloneOSX},
+#if UNITY_2023_1_OR_NEWER
+            new LibInfo() {cpu = "ARM64", os = "Windows", lib = "fmodstudioL.dll", platform = "win", setPlatformCPU = true, buildTarget = BuildTarget.StandaloneWindows64},
+#endif
+>>>>>>> Stashed changes
         };
 
         public static bool SourceLibsExist
@@ -1346,6 +1391,10 @@ namespace FMODUnity
             public string os;
             public string lib;
             public string platform;
+<<<<<<< Updated upstream
+=======
+            public bool setPlatformCPU;
+>>>>>>> Stashed changes
             public BuildTarget buildTarget;
         };
 
@@ -1545,6 +1594,13 @@ namespace FMODUnity
                             pluginImporter.SetCompatibleWithPlatform(libInfo.buildTarget, true);
                             pluginImporter.SetEditorData("CPU", libInfo.cpu);
                             pluginImporter.SetEditorData("OS", libInfo.os);
+<<<<<<< Updated upstream
+=======
+                            if (libInfo.setPlatformCPU)
+                            {
+                                pluginImporter.SetPlatformData(libInfo.buildTarget, "CPU", libInfo.cpu);
+                            }
+>>>>>>> Stashed changes
                             EditorUtility.SetDirty(pluginImporter);
                             pluginImporter.SaveAndReimport();
                         }

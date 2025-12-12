@@ -25,6 +25,11 @@ namespace FMODUnity
         private const string StringBankExtension = "strings.bank";
         private const string BankExtension = "bank";
 
+<<<<<<< Updated upstream
+=======
+        private static HashSet<string> newBankPaths = new HashSet<string>();
+
+>>>>>>> Stashed changes
 #if UNITY_EDITOR
         [MenuItem("FMOD/Refresh Banks", priority = 1)]
         public static void RefreshBanks()
@@ -569,6 +574,10 @@ namespace FMODUnity
             BuildStatusWatcher.OnBuildStarted += () => {
                 BuildTargetChanged();
                 CopyToStreamingAssets(EditorUserBuildSettings.activeBuildTarget);
+<<<<<<< Updated upstream
+=======
+                ApplyFMODLabel();
+>>>>>>> Stashed changes
             };
             BuildStatusWatcher.OnBuildEnded += () => {
                 UpdateBankStubAssets(EditorUserBuildSettings.activeBuildTarget);
@@ -653,7 +662,11 @@ namespace FMODUnity
 #pragma warning restore 0618
                 {
                     RuntimeUtils.DebugLogWarningFormat("FMOD: A component of type {0} in scene '{1}' on GameObject '{2}' has an "
+<<<<<<< Updated upstream
                         + "obsolete [EventRef] attribute on field {3}. {4}",
+=======
+                        + "obsolete [FMODUnity.EventRef] attribute on field {3}. {4}",
+>>>>>>> Stashed changes
                         type.Name, scene.name, EditorUtils.GameObjectPath(behaviour), field.Name,
                         UpdaterInstructions);
                 }
@@ -841,8 +854,12 @@ namespace FMODUnity
 
                         string assetString = targetPathFull.Replace(Application.dataPath, "Assets");
                         AssetDatabase.ImportAsset(assetString);
+<<<<<<< Updated upstream
                         UnityEngine.Object obj = AssetDatabase.LoadAssetAtPath<UnityEngine.Object>(assetString);
                         AssetDatabase.SetLabels(obj, new string[] { FMODLabel });
+=======
+                        newBankPaths.Add(assetString);
+>>>>>>> Stashed changes
                     }
                 }
 
@@ -1364,5 +1381,22 @@ namespace FMODUnity
                 }
             }
         }
+<<<<<<< Updated upstream
+=======
+
+        private static void ApplyFMODLabel()
+        {
+            foreach (string assetPath in newBankPaths)
+            {
+                if (!AssetHasLabel(assetPath, FMODLabel))
+                {
+                    UnityEngine.Object obj = AssetDatabase.LoadAssetAtPath<UnityEngine.Object>(assetPath);
+                    AssetDatabase.SetLabels(obj, new string[] { FMODLabel });
+                }
+            }
+
+            newBankPaths.Clear();
+        }
+>>>>>>> Stashed changes
     }
 }

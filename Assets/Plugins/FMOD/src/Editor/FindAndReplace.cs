@@ -168,7 +168,12 @@ namespace FMODUnity
             int replaceLength = replaceText.Length;
             int position = 0;
             var serializedObject = new SerializedObject(emitter);
+<<<<<<< Updated upstream
             var pathProperty = serializedObject.FindProperty("Event");
+=======
+            var eventReferenceProperty = serializedObject.FindProperty("EventReference");
+            var pathProperty = eventReferenceProperty.FindPropertyRelative("Path");
+>>>>>>> Stashed changes
             string path = pathProperty.stringValue;
             position = path.IndexOf(findText, position, StringComparison.CurrentCultureIgnoreCase);
             while (position >= 0)
@@ -177,7 +182,12 @@ namespace FMODUnity
                 position += replaceLength;
                 position = path.IndexOf(findText, position, StringComparison.CurrentCultureIgnoreCase);
             }
+<<<<<<< Updated upstream
             pathProperty.stringValue = path;
+=======
+            EventReference newEventReference = EventReference.Find(path);
+            eventReferenceProperty.SetEventReference(newEventReference.Guid, newEventReference.Path);
+>>>>>>> Stashed changes
             return serializedObject.ApplyModifiedProperties();
         }
 

@@ -1,9 +1,22 @@
 ﻿using UnityEngine;
+<<<<<<< Updated upstream
 using UnityEngine.EventSystems;
 
 namespace FMODUnity
 {
     public abstract class EventHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
+=======
+#if UNITY_UI_EXIST
+using UnityEngine.EventSystems;
+#endif
+
+namespace FMODUnity
+{
+    public abstract class EventHandler : MonoBehaviour
+#if UNITY_UI_EXIST
+    , IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
+#endif
+>>>>>>> Stashed changes
     {
         public string CollisionTag = "";
 
@@ -27,7 +40,11 @@ namespace FMODUnity
             HandleGameEvent(EmitterGameEvent.ObjectDisable);
         }
 
+<<<<<<< Updated upstream
         #if UNITY_PHYSICS_EXIST
+=======
+#if UNITY_PHYSICS_EXIST
+>>>>>>> Stashed changes
         private void OnTriggerEnter(Collider other)
         {
             if (string.IsNullOrEmpty(CollisionTag) || other.CompareTag(CollisionTag) || (other.attachedRigidbody && other.attachedRigidbody.CompareTag(CollisionTag)))
@@ -43,9 +60,15 @@ namespace FMODUnity
                 HandleGameEvent(EmitterGameEvent.TriggerExit);
             }
         }
+<<<<<<< Updated upstream
         #endif
 
         #if UNITY_PHYSICS2D_EXIST
+=======
+#endif
+
+#if UNITY_PHYSICS2D_EXIST
+>>>>>>> Stashed changes
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (string.IsNullOrEmpty(CollisionTag) || other.CompareTag(CollisionTag))
@@ -61,7 +84,11 @@ namespace FMODUnity
                 HandleGameEvent(EmitterGameEvent.TriggerExit2D);
             }
         }
+<<<<<<< Updated upstream
         #endif
+=======
+#endif
+>>>>>>> Stashed changes
 
         private void OnCollisionEnter()
         {
@@ -83,6 +110,10 @@ namespace FMODUnity
             HandleGameEvent(EmitterGameEvent.CollisionExit2D);
         }
 
+<<<<<<< Updated upstream
+=======
+#if UNITY_UI_EXIST
+>>>>>>> Stashed changes
         private void OnMouseEnter()
         {
             HandleGameEvent(EmitterGameEvent.ObjectMouseEnter);
@@ -121,7 +152,11 @@ namespace FMODUnity
         {
             HandleGameEvent(EmitterGameEvent.UIMouseUp);
         }
+<<<<<<< Updated upstream
 
+=======
+#endif
+>>>>>>> Stashed changes
         protected abstract void HandleGameEvent(EmitterGameEvent gameEvent);
     }
 }

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 3770776c830874ecdb8b9e4d40167b79
+=======
+guid: 754d0b249ceb54e518efe85be17a94bc
+>>>>>>> Stashed changes
 PluginImporter:
   externalObjects: {}
   serializedVersion: 3
@@ -22,7 +26,12 @@ PluginImporter:
         OS: OSX
     OSXUniversal:
       enabled: 1
+<<<<<<< Updated upstream
       settings: {}
+=======
+      settings:
+        CPU: AnyCPU
+>>>>>>> Stashed changes
   userData: 
   assetBundleName: 
   assetBundleVariant: 

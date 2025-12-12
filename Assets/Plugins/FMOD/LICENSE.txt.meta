@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: a683107664d1007459a0cd9de4d95ea3
+=======
+guid: e04ece3da327f0c4a836299cc1742fd1
+>>>>>>> Stashed changes
 TextScriptImporter:
   externalObjects: {}
   userData: 
@@ -9,6 +13,12 @@ AssetOrigin:
   serializedVersion: 1
   productId: 161631
   packageName: FMOD for Unity (2.02)
+<<<<<<< Updated upstream
   packageVersion: 2.02.28
   assetPath: Assets/Plugins/FMOD/LICENSE.txt
   uploadId: 745941
+=======
+  packageVersion: 2.02.32
+  assetPath: Assets/Plugins/FMOD/LICENSE.txt
+  uploadId: 821718
+>>>>>>> Stashed changes

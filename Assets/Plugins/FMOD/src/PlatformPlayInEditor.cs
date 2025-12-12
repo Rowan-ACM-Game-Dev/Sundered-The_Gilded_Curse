@@ -79,11 +79,16 @@ namespace FMODUnity
         internal override string GetPluginPath(string pluginName)
         {
             string platformsFolder = Path.GetFullPath($"{RuntimeUtils.PluginBasePath}/platforms");
+<<<<<<< Updated upstream
 
 #if UNITY_EDITOR_WIN && UNITY_EDITOR_64
             return string.Format("{0}/win/lib/x86_64/{1}.dll", platformsFolder, pluginName);
 #elif UNITY_EDITOR_WIN
             return string.Format("{0}/win/lib/x86/{1}.dll", platformsFolder, pluginName);
+=======
+#if UNITY_EDITOR_WIN
+            return string.Format("{0}/win/lib/{1}/{2}.dll", platformsFolder, RuntimeUtils.GetPluginArchitectureFolder(), pluginName);
+>>>>>>> Stashed changes
 #elif UNITY_EDITOR_OSX
             string pluginPath = string.Format("{0}/mac/lib/{1}.bundle", platformsFolder, pluginName);
             if (System.IO.Directory.Exists(pluginPath))
@@ -94,10 +99,22 @@ namespace FMODUnity
             {
                 return string.Format("{0}/mac/lib/{1}.dylib", platformsFolder, pluginName);
             }
+<<<<<<< Updated upstream
 #elif UNITY_EDITOR_LINUX && UNITY_EDITOR_64
             return string.Format("{0}/linux/lib/x86_64/lib{1}.so", platformsFolder, pluginName);
 #elif UNITY_EDITOR_LINUX
             return string.Format("{0}/linux/lib/x86/lib{1}.so", platformsFolder, pluginName);
+=======
+#elif UNITY_EDITOR_LINUX
+            if (Environment.Is64BitProcess)
+            {
+                return string.Format("{0}/linux/lib/x86_64/lib{1}.so", platformsFolder, pluginName);
+            }
+            else
+            {
+                return string.Format("{0}/linux/lib/x86/lib{1}.so", platformsFolder, pluginName);
+            }
+>>>>>>> Stashed changes
 #endif
         }
 #endif

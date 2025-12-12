@@ -90,6 +90,12 @@ AssetOrigin:
   serializedVersion: 1
   productId: 161631
   packageName: FMOD for Unity (2.02)
+<<<<<<< Updated upstream
   packageVersion: 2.02.28
   assetPath: Assets/Plugins/FMOD/images/CrossYellow.png
   uploadId: 745941
+=======
+  packageVersion: 2.02.32
+  assetPath: Assets/Plugins/FMOD/images/CrossYellow.png
+  uploadId: 821718
+>>>>>>> Stashed changes

@@ -1302,12 +1302,20 @@ namespace FMODUnity
                         if (!string.IsNullOrEmpty(targetName))
                         {
                             return string.Format(
+<<<<<<< Updated upstream
                                 "Add an <b>EventReference</b> field named <b>{0}</b> to hold <b>'{1}'</b> from <b>{2}</b>",
+=======
+                                "Add an <b>FMODUnity.EventReference</b> field named <b>{0}</b> to hold <b>'{1}'</b> from <b>{2}</b>",
+>>>>>>> Stashed changes
                                 targetName, value, fieldPath);
                         }
                         else
                         {
+<<<<<<< Updated upstream
                             return string.Format("Add an <b>EventReference</b> field to hold <b>'{0}'</b> from <b>{1}</b>",
+=======
+                            return string.Format("Add an <b>FMODUnity.EventReference</b> field to hold <b>'{0}'</b> from <b>{1}</b>",
+>>>>>>> Stashed changes
                                 value, fieldPath);
                         }
                     },
@@ -1331,22 +1339,38 @@ namespace FMODUnity
                         if (!string.IsNullOrEmpty(targetName))
                         {
                             return string.Format(
+<<<<<<< Updated upstream
                                 "The {0} field on component {1} has an [EventRef(MigrateTo=\"{2}\")] " +
                                 "attribute, but the {2} field doesn't exist.\n" +
                                 "* Edit {3} and add an EventReference field named {2}:\n" +
                                 "    public EventReference {2};\n" +
+=======
+                                "The {0} field on component {1} has an [FMODUnity.EventRef(MigrateTo=\"{2}\")] " +
+                                "attribute, but the {2} field doesn't exist.\n" +
+                                "* Edit {3} and add an EventReference field named {2}:\n" +
+                                "    public FMODUnity.EventReference {2};\n" +
+>>>>>>> Stashed changes
                                 "* Re-scan your project",
                                 fieldPath, component.Type, targetName, script);
                         }
                         else
                         {
                             return string.Format(
+<<<<<<< Updated upstream
                                 "The {0} field on component {1} has an [EventRef] " +
                                 "attribute with no migration target specified.\n" +
                                 "* Edit {2} and add an EventReference field:\n" +
                                 "    public EventReference <fieldname>;\n" +
                                 "* Change the [EventRef] attribute on the {3} field to:\n" +
                                 "    [EventRef(MigrateTo=\"<fieldname>\")]\n" +
+=======
+                                "The {0} field on component {1} has an [FMODUnity.EventRef] " +
+                                "attribute with no migration target specified.\n" +
+                                "* Edit {2} and add an EventReference field:\n" +
+                                "    public FMODUnity.EventReference yourNewFieldName;\n" +
+                                "* Change the [FMODUnity.EventRef] attribute on the {3} field to:\n" +
+                                "    [FMODUnity.EventRef(MigrateTo=\"yourNewFieldName\")]\n" +
+>>>>>>> Stashed changes
                                 "* Re-scan your project.",
                                 fieldPath, component.Type, script, fieldName);
                         }
@@ -1447,8 +1471,13 @@ namespace FMODUnity
                     },
                     ManualInstructions: (data, component) => {
                         return string.Format(
+<<<<<<< Updated upstream
                             "Fields {0} on the {1} type have [EventRef] attributes with the same MigrateTo value.\n" +
                             "* Edit the definition of the {1} type and make sure all [EventRef] attributes have " +
+=======
+                            "Fields {0} on the {1} type have [FMODUnity.EventRef] attributes with the same MigrateTo value.\n" +
+                            "* Edit the definition of the {1} type and make sure all [FMODUnity.EventRef] attributes have " +
+>>>>>>> Stashed changes
                             "different MigrateTo values\n" +
                             "* Re-scan your project",
                             EditorUtils.SeriesString(", ", " and ", data.Skip(2)), data[1]);
